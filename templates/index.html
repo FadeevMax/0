@@ -67,6 +67,19 @@
                     </div>
                 </div>
                 
+                <!-- Default Chunks -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5>🚀 Quick Start</h5>
+                    </div>
+                    <div class="card-body">
+                        <p class="text-muted">Load pre-processed chunks to start using the app immediately.</p>
+                        <button id="load-default-btn" class="btn btn-primary w-100">
+                            <i class="fas fa-bolt"></i> Load Default Chunks
+                        </button>
+                    </div>
+                </div>
+                
                 <!-- GitHub Integration -->
                 <div class="card">
                     <div class="card-header">
@@ -76,11 +89,11 @@
                         <form id="github-form">
                             <div class="mb-3">
                                 <label class="form-label">Repository URL</label>
-                                <input type="url" class="form-control" id="repo-url" placeholder="https://github.com/owner/repo" required>
+                                <input type="url" class="form-control" id="repo-url" placeholder="https://github.com/FadeevMax/0" value="https://github.com/FadeevMax/0">
                             </div>
                             <div class="mb-3">
                                 <label class="form-label">File Path</label>
-                                <input type="text" class="form-control" id="file-path" value="output/hybrid_chunks.json" required>
+                                <input type="text" class="form-control" id="file-path" value="output/chunks.json">
                             </div>
                             <button type="submit" class="btn btn-success">
                                 <i class="fab fa-github"></i> Load from GitHub
@@ -216,6 +229,39 @@ document.getElementById('upload-form').addEventListener('submit', async function
     } finally {
         processBtn.disabled = false;
         progressDiv.style.display = 'none';
+    }
+});
+
+// Default chunks loading
+document.getElementById('load-default-btn').addEventListener('click', async function() {
+    const btn = this;
+    const originalText = btn.innerHTML;
+    
+    btn.disabled = true;
+    btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Loading...';
+    
+    try {
+        const response = await fetch('/api/load-default-chunks', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            }
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            showAlert(data.message, 'success');
+            updateStatus();
+            enableChatAndChunks();
+        } else {
+            showAlert(data.error, 'danger');
+        }
+    } catch (error) {
+        showAlert('Error loading default chunks: ' + error.message, 'danger');
+    } finally {
+        btn.disabled = false;
+        btn.innerHTML = originalText;
     }
 });
 

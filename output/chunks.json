@@ -1,0 +1,3925 @@
+[
+  {
+    "chunk_id": 0,
+    "text": "GTI OH general info\n\nOHIO GENERAL INFO\n\nOH GTI Team | OH GTI Team\nBrett Stinson | Sales director | brett.stinson@gtigrows.com\nStephen Saluga | Account Executive | stephen.saluga@gtigrows.com\nKyle Kuchta | Account Executive | kyle.kuchta@gtigrows.com\nVanesa Ellis | Account Executive | vanesa.ellis@gtigrows.com\n\nTeams channel: HQ Kickoff - OH\n\nFORMAT:  Almost all orders are coming in the menu format.\n\nDISCOUNTS: They have different discounts (volume tiered flower discounts, 20 off Incredibles, inventory reduction tab, etc). If it is something out of that, it will be communicated in the menu or email. They usually create the promo prices on Monday, and those rules are created in LT within a maximum of 24 hours. That is the gap when prices on the menu are not reflected in LT, and we have to adjust them manually.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "ORDER_LIMIT"
+      ],
+      "element_count": 6,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 819,
+      "word_count": 132
+    }
+  },
+  {
+    "chunk_id": 1,
+    "text": "Teams channel: HQ Kickoff - OH\n\nFORMAT:  Almost all orders are coming in the menu format.\n\nPRIORITY ORDERS: Rise is having priority over regular orders (if they come late Wed, early Thu). They hold with regular orders until the rise is in.\n\nOH RISE\n\nOHIO RISE ORDERS\n\nGeneral info:\n\nOrder Cutoff Wednesday EOD - prep for RISE\n\nThere are 5 rise stores: Cleveland, Detroit, Madison, Lorain and Toledo.\n\nWe receive a rise in the menu format.\n\nAverage 1000 – 6000k units per store.\n\nIt is split by delivery dates but inputted at the same time.\n\nComes on Thursday AM – they punch them for delivery next week\n\nToledo delivery – Tue / Thu\n\nOther stores – Mon / Wed / Fri",
+    "images": [],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "RISE",
+        "GENERAL"
+      ],
+      "topics": [
+        "ORDER_LIMIT",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 14,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 663,
+      "word_count": 121
+    }
+  },
+  {
+    "chunk_id": 2,
+    "text": "Comes on Thursday AM – they punch them for delivery next week\n\nToledo delivery – Tue / Thu\n\nOther stores – Mon / Wed / Fri\n\nPRICING: For rise orders, we follow the MENU pricing. Menu prices should be the same as LT prices; if not, follow the menu price and make a note.\n\nDISCOUNT: They have special discounts for some SKUs. They provide this info in the body of the email when they send a rise. Usually, these discounts are already included in the menu and LT, however we can always double-check.\n\nImage 1. Special discounts they are running\n\nORDER PLACING: We start with Monday’s orders for all stores, then move on to Tuesday’s, Wednesday’s, and so on. After completing Monday and Tuesday, we inform them via Teams that we’re done. The same goes after Wednesday and Thursday, and lastly for Friday.\n\nORDER CHECK: On the order sheet, we have the total unit count and total dollar amount, which we must refer to when checking the order at the end.",
+    "images": [
+      {
+        "filename": "image_1.png",
+        "path": "semantic_output/images/image_1.png",
+        "label": "Image 1",
+        "number": 1,
+        "context_text": "",
+        "state": "OH",
+        "section": "RISE",
+        "topic": "PRICING"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 9,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 947,
+      "word_count": 171
+    }
+  },
+  {
+    "chunk_id": 3,
+    "text": "ORDER CHECK: On the order sheet, we have the total unit count and total dollar amount, which we must refer to when checking the order at the end.\n\nImage 2. Total dollar and unit amount per store/day\n\nPull number is in column F\n\nUnit price is in column K\n\nBATCH SUB: If the requested batch is OOS, we search for the product by name. If we have multiple batches available, we need to follow the same process as for regular orders and make sure we are choosing the oldest batch available (always make a note - example below).\n\nLESS AVAILABILITY: If there are fewer available units than requested, and there is no other batch available, we add as much as we have. If we have a request for 25 units, and there are only 20 units available, we pick 25 units from a different batch. If there is no other batch available, we pick these 20 units and make a note (example below).",
+    "images": [
+      {
+        "filename": "image_2.png",
+        "path": "semantic_output/images/image_2.png",
+        "label": "Image 2",
+        "number": 2,
+        "context_text": "",
+        "state": "OH",
+        "section": "RISE",
+        "topic": "PRICING"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 868,
+      "word_count": 163
+    }
+  },
+  {
+    "chunk_id": 4,
+    "text": "Unit price is in column K\n\nBATTERIES: Batteries go on separate invoices!\n\nINVOICES: There is no need to send the invoices (but we should save them for our records)\n\nDELIVERY DATE: Once we place the orders, we need to add delivery dates (they are for the following week).\n\nImage 3. Delivery date set up\n\nImage 4. A place to check if the order is dated\n\nNotes example:\n\nNo available item: 0/25 Gelato Punch Cookies Pre-Pack (Popcorn) 2.83g - Good Green (Hybrid)\n\nLess available item: 16/20 Brownie Scout Cartridge 850mg - Rythm (Indica Dominant)\n\nPull SUB: Incredibles Gummy 120mg - Blueberry Dream - requested 1A40703000027D9000009245 (OOS) - batch 1A40703000027D9000037408 added to the order instead\n\nDifferent pricing: Jack Herer Pre-Pack (Buds) 2.83g (1A40703000027D9000008016) - Rythm (Sativa Dominant) - $10 per unit in the menu, $3 per unit in LT - Corrected the price to $10 in LT",
+    "images": [
+      {
+        "filename": "image_3.png",
+        "path": "semantic_output/images/image_3.png",
+        "label": "Image 3",
+        "number": 3,
+        "context_text": "",
+        "state": "OH",
+        "section": "RISE",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_4.png",
+        "path": "semantic_output/images/image_4.png",
+        "label": "Image 4",
+        "number": 4,
+        "context_text": "",
+        "state": "OH",
+        "section": "RISE",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "DELIVERY_DATE",
+        "LESS_AVAILABLE",
+        "INVOICES",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 13,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 886,
+      "word_count": 145
+    }
+  },
+  {
+    "chunk_id": 5,
+    "text": "Less available item: 16/20 Brownie Scout Cartridge 850mg - Rythm (Indica Dominant)\n\nOH regular orders\n\nOHIO REGULAR ORDERS\n\nPRICING: We always follow MENU PRICING (ACTUAL PRICE) - in case the formula is not pulling correctly, and we see that the price should be discounted according to the number of units, address that in the email or via Teams.\n\nSPECIAL PRICING: Sometimes promotions are not reflected in the menu pricing; however, you can find more information at the top of the menu. In such cases, we should manually adjust the price and make a note about it (e.g., for Beboe gummies $10).\n\nImage 1. Actual price column\n\nImage 2. Special deals\n\nPRICE CHANGE WHEN ITEM IS OOS: Since pricing depends on the number of products ordered, if some items are out of stock and the order no longer qualifies for the lower price tier, we should apply the higher price and inform the reps when sending the invoice. Explanation:",
+    "images": [
+      {
+        "filename": "image_5.png",
+        "path": "semantic_output/images/image_5.png",
+        "label": "Image 5",
+        "number": 5,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_6.png",
+        "path": "semantic_output/images/image_6.png",
+        "label": "Image 6",
+        "number": 6,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_7.png",
+        "path": "semantic_output/images/image_7.png",
+        "label": "Image 7: PRICE CHANGE WHEN ITEM IS OOS: Since pricing depends on",
+        "number": 7,
+        "context_text": "PRICE CHANGE WHEN ITEM IS OOS: Since pricing depends on the number of products ordered, if some items are out of stock and the order no longer qualifies for the lower price tier, we should apply the h",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "RISE",
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "LESS_AVAILABLE",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 10,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 920,
+      "word_count": 158
+    }
+  },
+  {
+    "chunk_id": 6,
+    "text": "PRICE CHANGE WHEN ITEM IS OOS: Since pricing depends on the number of products ordered, if some items are out of stock and the order no longer qualifies for the lower price tier, we should apply the higher price and inform the reps when sending the invoice. Explanation:\n\nImage 3. Bucket price change\n\nBATCH/PULL NOT AVAILABLE: In case the requested batch is not available, GO TO – Inventory/Pricing - Search the product by name - check expiration date first. If multiple batches have the same exp date, the second step would be to search for the lowest pull no (last 4 digits / in case there are 0000, then it might be 5 digits)\n\nImage 4. Process of checking which batch should be used for sub (Inventory/Pricing)\n\nImage 4. Search by product name (ex., Animal face)\n\nImage 5\t. 1st step - Checking the expiration date column",
+    "images": [
+      {
+        "filename": "image_7.png",
+        "path": "semantic_output/images/image_7.png",
+        "label": "Image 7: PRICE CHANGE WHEN ITEM IS OOS: Since pricing depends on",
+        "number": 7,
+        "context_text": "PRICE CHANGE WHEN ITEM IS OOS: Since pricing depends on the number of products ordered, if some items are out of stock and the order no longer qualifies for the lower price tier, we should apply the h",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      },
+      {
+        "filename": "image_8.png",
+        "path": "semantic_output/images/image_8.png",
+        "label": "Image 8",
+        "number": 8,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_9.png",
+        "path": "semantic_output/images/image_9.png",
+        "label": "Image 9",
+        "number": 9,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "PRICING"
+      },
+      {
+        "filename": "image_10.png",
+        "path": "semantic_output/images/image_10.png",
+        "label": "Image 10",
+        "number": 10,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "PRICING"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "PRICING",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 9,
+      "has_images": true,
+      "image_count": 4,
+      "char_count": 824,
+      "word_count": 147
+    }
+  },
+  {
+    "chunk_id": 7,
+    "text": "Image 4. Search by product name (ex., Animal face)\n\nImage 5\t. 1st step - Checking the expiration date column\n\nImage 6. 2nd step - Checking the smallest pull number\n\nNotes example: \nPull sub: Black Afghan Pen 2000mg - Rythm (Indica Dominant) - requested 1A40703000027D9000051097, we used 1A40703000027D9000061554\n\nLESS AVAILABLE UNITS FROM REQUESTED BATCH: If we have a request for 25 units, and there are only 20 units available, we pick 25 units from a different batch. If there is no other batch available, we will pick these 20 units and send a note via email\n\nREC VS MED – no priorities\n\nSUBS – If the batch is not available, we substitute with a different batch number according to the rules. If the other batch is not available, we don't substitute with different products; we just advise the rep in the email about OOS",
+    "images": [
+      {
+        "filename": "image_10.png",
+        "path": "semantic_output/images/image_10.png",
+        "label": "Image 10",
+        "number": 10,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "PRICING"
+      },
+      {
+        "filename": "image_11.png",
+        "path": "semantic_output/images/image_11.png",
+        "label": "Image 11",
+        "number": 11,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 9,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 825,
+      "word_count": 144
+    }
+  },
+  {
+    "chunk_id": 8,
+    "text": "REC VS MED – no priorities\n\nBATTERIES: Batteries are going on a separate invoice\n\nOFF-SPEC PRODUCTS: If we notice that the product has an Off spec in the batch name, we should avoid adding it to the regular orders. We use these only for RISE stores.\n\nImage 7. OFF SPEC products\n\nCASE SIZES:\n\nAll 28.3g flowers - CASE OF 10 UNITS\n\nAll 2.83g and 5.66g flowers - CASE OF 30 UNITS\n\nAll 14g flowers - CASE OF 20 UNITS\n\nIf we have a situation where there is a request for 15 units of Good Green 28.3g - we should add 10 or 20 units and add that info in the email (because of the case size)\n\nCASE SIZE EXCEPTION: Only in the case of fewer available units (with no other batch to substitute), we can break the case. For example, if there are only 14 units left of Good Green 28.3g and we have a request for 20, we will not pull 10 (1 case), but we will pull all 14 and close that batch, notifying them in the email.",
+    "images": [
+      {
+        "filename": "image_12.png",
+        "path": "semantic_output/images/image_12.png",
+        "label": "Image 12",
+        "number": 12,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 11,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 907,
+      "word_count": 180
+    }
+  },
+  {
+    "chunk_id": 9,
+    "text": "All 14g flowers - CASE OF 20 UNITS\n\nORDER CHECK: In the first tab, we have the summary where we can check if everything is correct after we are done with the order.\n\nImage 7. 2nd step - Order summary\n\nMONTH SPECIALS: Every month, they are running promos on some SKUs. Some are reflected in the menu, some are not. We should always pay attention to that.\n\nImage 8. Month specials\n\nOH account details\n\nOHIO ACCOUNTS\n\nFirelands Scientifics dispensary, The Landing in Cinci - should be placed in LT under “The Landing - Cinci”, NOT 'Firelands Scientifics.\n\nHuron location is the only one titled 'Firelands Scientific' while their Monroe, Cincinnati, Columbus, and Cleveland locations are titled 'The Landing'.",
+    "images": [
+      {
+        "filename": "image_13.png",
+        "path": "semantic_output/images/image_13.png",
+        "label": "Image 13",
+        "number": 13,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_14.png",
+        "path": "semantic_output/images/image_14.png",
+        "label": "Image 14",
+        "number": 14,
+        "context_text": "",
+        "state": "OH",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "OH"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "NOTES"
+      ],
+      "element_count": 11,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 705,
+      "word_count": 118
+    }
+  },
+  {
+    "chunk_id": 10,
+    "text": "OHIO ACCOUNTS\n\nFirelands Scientifics dispensary, The Landing in Cinci - should be placed in LT under “The Landing - Cinci”, NOT 'Firelands Scientifics.\n\nOH Rise CLE - in LT: Rise Ohio - Whitehall - REC\n\nGTI MD general info\n\nMARYLAND GENERAL INFO\n\nManny Jayaratne (Sales Manager) - mjayaratne@gtigrows.com - our POC\n\nOrders: 70% of the orders come from the Menu / 30% loose email orders\n\nCutoff is at 9 AM every day.\n\nThe expiration date for all products is 90 days!\n\nMD GTI Team | MD GTI Team\nMarko Steinhagen | Regional Commercial General Manager (RCGM) | marko.steinhagen@gtigrows.com\nJeff Mangold | Sales Director | jmangold@gtigrows.com\nManny Jayaratne POC | Sales Manager | mjayaratne@gtigrows.com\nEden Trowell | Account Executive | eden.trowell@gtigrows.com\nJackson Kerchner | Account Executive | jackson.kerchner@gtigrows.com\nAlex Chang | Account Executive | alex.chang@gtigrows.com\nMelba Wood | Buyer | melba.wood@gtigrows.com\nChrysten Rudy | Associate Buyer | chrysten.rudy@gtigrows.com",
+    "images": [],
+    "metadata": {
+      "states": [
+        "OH",
+        "MD"
+      ],
+      "sections": [
+        "RISE",
+        "GENERAL",
+        "REGULAR"
+      ],
+      "topics": [
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 10,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 995,
+      "word_count": 147
+    }
+  },
+  {
+    "chunk_id": 11,
+    "text": "Cutoff is at 9 AM every day.\n\nThe expiration date for all products is 90 days!\n\nWorking Hours: 8 am - 5 pm\n\nPreferred communication channel: Email, Teams, Call\n\nCall if Urgent:\n\nManny - (240) 893-2389\n\nJackson - (443) 223-3492\n\nAlex - (240) 274-1316\n\nEden - (310) 800-7031\n\nMD RISE\n\nMARYLAND RISE ORDERS\n\nOrder Limit: Order limit is 5000 units for Hagerstwon, Joppa and Silver Spring. For Bethesda, it is 1000 units.\n\nRise for flowers is placed differently from the rise for other products.\n\nWe usually receive flowers on Mon/Tue in a simple order form (we might receive pre-rolls and other products in the same form).\n\nImage 1. Order form example\n\nRise for other products is received in the regular multi-tab menu format on a different day of the week.\n\nImage 2. Order menu form example\n\nORDERS: We create separate RISE orders for each store and product type (e.g., one for Pre-Rolls, one for Concentrates,etc). Exceptions:",
+    "images": [
+      {
+        "filename": "image_15.png",
+        "path": "semantic_output/images/image_15.png",
+        "label": "Image 15",
+        "number": 15,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "ORDER_LIMIT"
+      },
+      {
+        "filename": "image_16.png",
+        "path": "semantic_output/images/image_16.png",
+        "label": "Image 16",
+        "number": 16,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE",
+        "GENERAL"
+      ],
+      "topics": [
+        "ORDER_LIMIT",
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 20,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 924,
+      "word_count": 156
+    }
+  },
+  {
+    "chunk_id": 12,
+    "text": "ORDERS: We create separate RISE orders for each store and product type (e.g., one for Pre-Rolls, one for Concentrates,etc). Exceptions:\n\nEdibles and Medical gummies can go on the same one (tinctures and balms as well)\n\nVapes need to be on separate orders (One for Rythm, one for &Shine + Beboe)\n\nConcentrates on separate order\n\nPRICING: We should follow the LT pricing. It should have been automatically 20% off - always make sure that the LT price is a discounted menu price!\n\nBATCH: For most products, there is only one batch available. However, if two or more batches are available, we follow the THC% request. If not available, we prioritize older products first (FIFO), based on the earliest lab result date.\n\nLESS AVAILABLE ITEM: If we have less available units than requested, we add what we have—as long as it's 9 units or more.",
+    "images": [
+      {
+        "filename": "image_16.png",
+        "path": "semantic_output/images/image_16.png",
+        "label": "Image 16",
+        "number": 16,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "LESS_AVAILABLE",
+        "PRICING",
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 8,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 836,
+      "word_count": 143
+    }
+  },
+  {
+    "chunk_id": 13,
+    "text": "LESS AVAILABLE ITEM: If we have less available units than requested, we add what we have—as long as it's 9 units or more.\n\nFor example, if the request is for 25 units and we have 11 available, we will add the 11 and make a note. However, if only 6 units are available, we will not fulfill the request - just mark the product as OOS\n\nSPLITTING THE PRODUCT: For orders exceeding 300 units of a single product (for example, 16 cases of Animal Face 3.5g), both product size types (cases and loose units) will be used. If a case size is 25 units, a request for 400 units will require 16 cases. We will usually allocate 8 cases + 200 loose units to fulfill the request, two lines. However, we can split the other way if needed, ex. Below\n\nImage 3. Product split between case and loose units (for requested 300+ units)",
+    "images": [
+      {
+        "filename": "image_17.png",
+        "path": "semantic_output/images/image_17.png",
+        "label": "Image 17",
+        "number": 17,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "LESS_AVAILABLE",
+        "NOTES"
+      ],
+      "element_count": 5,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 811,
+      "word_count": 153
+    }
+  },
+  {
+    "chunk_id": 14,
+    "text": "Image 3. Product split between case and loose units (for requested 300+ units)\n\nBATCH SPLIT: We can split the batch a maximum of two times in one order if needed (use 2 batches of the same product). We do this in order to close the open batch.\n\nExample 1: If there is a batch with 50 units left and a batch with 500 units available, and we have a request for 4 cases, we will pull 2 cases from the smaller batch and 2 from the larger.\n\nExample 2: If there is a batch with 12 units left and we have a request for 50 units (2 cases), we will add those 12 loose units to close the batch, and take the remaining 38 loose units from the second available batch.\n\nPRIORITY: The store that orders the highest number of units receives priority. Typically, this is Hagerstown!\n\nSKU LIMITS: We generally follow the maximum SKU number a store can accept (ex., Hagerstown 6000 units). However, if the store orders more, we can still process the order and verify with Manny whether it is acceptable or needs to be adjusted. This usually doesn’t happen - This is usually not happening.",
+    "images": [
+      {
+        "filename": "image_17.png",
+        "path": "semantic_output/images/image_17.png",
+        "label": "Image 17",
+        "number": 17,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "ORDER_LIMIT",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 1070,
+      "word_count": 199
+    }
+  },
+  {
+    "chunk_id": 15,
+    "text": "PRIORITY: The store that orders the highest number of units receives priority. Typically, this is Hagerstown!\n\nINVOICES: We need to download the invoices and send them together with the notes.\n\nInvoice format: Store name_Product_X\n\nImage 4. Invoice format\n\nNOTES: We need to send notes about OOS items, less available products, batch split (if we used two), and price discrepancies (LT vs Menu).\n\nImage 5. Notes example\n\nThe tracker is populated once orders are submitted. It tracks how many units of each SKU category have been allocated to each store -  TRACKER - Usually we are not doing this\n\nRISE FOR FLOWERS\n\nRISE Flower Hold: They will send us the order number where they are holding the flowers for rise. They will also send us the flower split. Example:\n\nImage 6. Flower hold sheet",
+    "images": [
+      {
+        "filename": "image_18.png",
+        "path": "semantic_output/images/image_18.png",
+        "label": "Image 18",
+        "number": 18,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "INVOICES"
+      },
+      {
+        "filename": "image_19.png",
+        "path": "semantic_output/images/image_19.png",
+        "label": "Image 19",
+        "number": 19,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_20.png",
+        "path": "semantic_output/images/image_20.png",
+        "label": "Image 20",
+        "number": 20,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 13,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 790,
+      "word_count": 133
+    }
+  },
+  {
+    "chunk_id": 16,
+    "text": "Image 6. Flower hold sheet\n\nThe order where they are holding the units will usually be under the Hagerstown location. Once we find that order in LT, we need to create a new order for Hagerstown, and later for Joppa, SS, and Bethesda. The biggest difference between Rise for Flowers and for other products is that the flowers are saved in advance, and we are moving products to our orders instead of searching for them. So we need to move the SKUs from the main order to the separate orders we created!",
+    "images": [
+      {
+        "filename": "image_20.png",
+        "path": "semantic_output/images/image_20.png",
+        "label": "Image 20",
+        "number": 20,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "NOTES"
+      ],
+      "element_count": 3,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 501,
+      "word_count": 92
+    }
+  },
+  {
+    "chunk_id": 17,
+    "text": "Image 6. Flower hold sheet\n\nWe open LT in two tabs. In one, we are keeping the main order; in the other, the order that we are building. The order from which we are moving the items doesn’t have to be in add/edit—just open it by clicking on the order number. Once you are ready, you move the items by clicking the three dots on the side, and you choose how many units you want to move (the number is always by item, even if the product is in case size) (e.g., moving 2 cases, you will type 50 units). When you transfer, it will show \"2 cases,\" so no worries. Once you move, refresh the page of the new order and you will see the products. The good thing is, if you make a mistake, you can always transfer the units back to the main order. When you transfer all requested units, you save your new order and download the invoice. Since the main order is not in the add/edit mode, you don’t have to save or anything.",
+    "images": [
+      {
+        "filename": "image_20.png",
+        "path": "semantic_output/images/image_20.png",
+        "label": "Image 20",
+        "number": 20,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "NOTES"
+      ],
+      "element_count": 3,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 913,
+      "word_count": 179
+    }
+  },
+  {
+    "chunk_id": 18,
+    "text": "Image 6. Flower hold sheet\n\nImage 7. Moving the items step 1\n\nImage 8. Moving the items step 2\n\nThe problem arises when we have a request for more than 300 units of one product, as we need both the case and loose size items on the main order, which is usually not the case. Here’s how we handle it: We remove the product from the main order and click save (ALWAYS make a note about the product name, batch, and quantity—so you know what to pull back). Then, we wait for a few minutes before searching for the product again. Once the product is visible, we pull it back into the order, with half the quantity in the case and half in the loose size.\n\nIf there is no loose size or case size still available, we need to ask Maneth for help. Sometimes he will agree to go with (350, 400 units), but sometimes he will create those for us.",
+    "images": [
+      {
+        "filename": "image_20.png",
+        "path": "semantic_output/images/image_20.png",
+        "label": "Image 20",
+        "number": 20,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_21.png",
+        "path": "semantic_output/images/image_21.png",
+        "label": "Image 21",
+        "number": 21,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "CASE_SIZE"
+      },
+      {
+        "filename": "image_22.png",
+        "path": "semantic_output/images/image_22.png",
+        "label": "Image 22",
+        "number": 22,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "CASE_SIZE"
+      },
+      {
+        "filename": "image_23.png",
+        "path": "semantic_output/images/image_23.png",
+        "label": "Image 23",
+        "number": 23,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "CASE_SIZE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "NOTES"
+      ],
+      "element_count": 8,
+      "has_images": true,
+      "image_count": 4,
+      "char_count": 832,
+      "word_count": 162
+    }
+  },
+  {
+    "chunk_id": 19,
+    "text": "Image 8. Moving the items step 2\n\nWe can split the batch a maximum of two times in the order (sometimes you will not have enough units in one batch, so you will use two. That is fine—just make sure to split only two times).\n\nUsually, the requested number of units is not the same as what is available. Example: request for 2 cases, and there are only 46 units left. That is fine—add as much as you can. Usually, the last store is the one receiving more or less than requested.\n\nNot enough units: If we have a request for, for example, 395 units across 4 stores (100 each), we will allocate 95 units to one of the stores, usually the last or second-to-last one. If we have more examples like this, we try to divide them between the stores so that not only one store receives these partials.\n\nNotes example\n\nImage 9. Notes for flowers",
+    "images": [
+      {
+        "filename": "image_24.png",
+        "path": "semantic_output/images/image_24.png",
+        "label": "Image 24",
+        "number": 24,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "ORDER_LIMIT",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 832,
+      "word_count": 157
+    }
+  },
+  {
+    "chunk_id": 20,
+    "text": "Notes example\n\nImage 9. Notes for flowers\n\nMD regular orders\n\nMARYLAND REGULAR ORDERS\n\nMENU: Typically, we receive the order request in the menu form\n\nImage 1: Menu form\n\nFLOWER PAGE: We should always confirm whether we should add the flower page. Typically, they offer discounts (10%, 15%) with most retailers, and those discounts are usually already in LT.\n\nDISCOUNT: They offer different pricing options. The general document is called\n\nGTI MD PRODUCT PRICING: There we can find all the retailers who are getting a discount on flowers, vapes or dog walkers products. We should apply prices accordingly. If the retailer is on the Dank Vape discount list and is marked in green, we should follow the prices from the “J” column for vapes. If it is there but not marked in green, we should follow the prices from the “F” column.",
+    "images": [
+      {
+        "filename": "image_24.png",
+        "path": "semantic_output/images/image_24.png",
+        "label": "Image 24",
+        "number": 24,
+        "context_text": "",
+        "state": "MD",
+        "section": "RISE",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_25.png",
+        "path": "semantic_output/images/image_25.png",
+        "label": "Image 25",
+        "number": 25,
+        "context_text": "",
+        "state": "MD",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "RISE",
+        "REGULAR"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 11,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 827,
+      "word_count": 141
+    }
+  },
+  {
+    "chunk_id": 21,
+    "text": "DISCOUNT: They offer different pricing options. The general document is called\n\nImage 2: MD NEW BASE PRICING 2025 document´{-.ñpñ{-.lp’o01\tjnbvc\n\nTERRITORY DOCUMENTS: There are 3 territory documents:\n\nWestern + Moco Discounts - link\n\nGTI North + Central Pricing Guide - link\n\nSouthEastAccount Discounts - link\n\nIn each file, we can find special pricing and retailer preferences for their accounts.\n\nPRICING: When we receive an order, we should:\n\nCheck the retailer in the territory files to see their preferences and special prices.\n\nCheck if the retailer is receiving any of the discounts (flowers, vapes, or walkers) in the GTI MD PRODUCT PRICING doc\n\nFor all other products, follow the menu pricing.\n\nLOOSE UNITS: We can always add loose units if a case is not available. For Western and Moco accounts, we should prioritize loose units.",
+    "images": [
+      {
+        "filename": "image_26.png",
+        "path": "semantic_output/images/image_26.png",
+        "label": "Image 26",
+        "number": 26,
+        "context_text": "",
+        "state": "MD",
+        "section": "REGULAR",
+        "topic": "PRICING"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "PRICING"
+      ],
+      "element_count": 13,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 839,
+      "word_count": 134
+    }
+  },
+  {
+    "chunk_id": 22,
+    "text": "LOOSE UNITS: We can always add loose units if a case is not available. For Western and Moco accounts, we should prioritize loose units.\n\nLESS AVAILABLE ITEMS: If we have limited inventory, we can still add items, as long as at least 9 units are available. For instance, if there’s a request for 25 units and we have 11, we should add them. However, if only 8 are available, we should mark the item as OOS (out of stock).\n\nSPLITTING THE PRODUCT: For orders exceeding 300 units of a single product (for example, 16 cases of Animal Face 3.5g), both product size types (cases and loose units) will be used. If a case size is 25 units, a request for 400 units will require 16 cases. We will usually allocate 8 cases + 200 loose units to fulfill the request, two lines.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "LESS_AVAILABLE",
+        "NOTES"
+      ],
+      "element_count": 3,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 763,
+      "word_count": 142
+    }
+  },
+  {
+    "chunk_id": 23,
+    "text": "LOOSE UNITS: We can always add loose units if a case is not available. For Western and Moco accounts, we should prioritize loose units.\n\nBATCH: For most products, there is only one batch available. However, if two or more batches are available, we follow the THC% request. If not available, we prioritize older products first (FIFO), based on the earliest lab result date. We don’t sub for a different product.\n\nTHC%: If the discrepancy is not within the same 10% range (e.g., ordered 50% - 41% available, or ordered 42% - 35% available), always make a note.\n\nBATTERIES: If there is a request for batteries, we can add them to the same invoice as our products, but we should make a note about it.\n\nREC VS MED – They don't have MED or REC locations. They only use one location.\n\nSAMPLES: We typically do not receive requests for samples. However, if a request is made, we must confirm whether the samples should be added to the existing sales order or if a separate order should be created. Samples are always priced at $0.01.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "SAMPLES",
+        "NOTES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 6,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 1025,
+      "word_count": 183
+    }
+  },
+  {
+    "chunk_id": 24,
+    "text": "REC VS MED – They don't have MED or REC locations. They only use one location.\n\nMD account details\n\nMARYLAND ACCOUNTS\n\nASCEND stores:\n\nStore 1: Aberdeen\n\nStore 2: Crofton\n\nStore 3: Ellicott City\n\nStore 4: Laurel\n\nG Leaf / Columbia care:\n\nStore 1: Care Chevy Chase\n\nStore 2: gLeaf Wellness Solutions - Frederick\n\nStore 2: gLeaf Wellness Solutions - Rockville\n\nMANA ORDERS: Always create two invoices: one for flower and prerolls, and another for the remaining products.\n\nVERILIFE ORDERS: For Verilife stores, we should always offer substitution from the same lean (Sativa, Indica, Hybrid).\n\nLOCATION: Do not place orders under Grow Facility’s locations. \nExample: Requested order for District Cannabis Hagerstown- Retail and in LT options are: \n\n\nThe correct location in this case is the District Cannabis MD - MCP Retail LLC one.",
+    "images": [
+      {
+        "filename": "image_27.png",
+        "path": "semantic_output/images/image_27.png",
+        "label": "Image 27: Example",
+        "number": 27,
+        "context_text": "LOCATION: Do not place orders under Grow Facility’s locations. \nExample: Requested order for District Cannabis Hagerstown- Retail and in LT options are: \n\n\nThe correct location in this case is the Dis",
+        "state": "MD",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_28.png",
+        "path": "semantic_output/images/image_28.png",
+        "label": "Image 28: Example",
+        "number": 28,
+        "context_text": "LOCATION: Do not place orders under Grow Facility’s locations. \nExample: Requested order for District Cannabis Hagerstown- Retail and in LT options are: \n\n\nThe correct location in this case is the Dis",
+        "state": "MD",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MD"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "SAMPLES",
+        "INVOICES",
+        "BATCH_SUB",
+        "NOTES"
+      ],
+      "element_count": 15,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 829,
+      "word_count": 132
+    }
+  },
+  {
+    "chunk_id": 25,
+    "text": "LOCATION: Do not place orders under Grow Facility’s locations. \nExample: Requested order for District Cannabis Hagerstown- Retail and in LT options are: \n\n\nThe correct location in this case is the District Cannabis MD - MCP Retail LLC one.\n\nGTI NJ general info\n\nNEW JERSEY GENERAL INFO\n\nNJ GTI Team | NJ GTI Team\nMarko Steinhagen | Regional Commercial General Manager (RCGM) | marko.steinhagen@gtigrows.com\nJeff Mangold | Sales Director | jmangold@gtigrows.com\nJess Gerencser | Sales Manager | jess.gerencser@gtigrows.com\nJavier Guzman | Account Executive | javier.guzman@gtigrows.com\nRichard Macko | Account Executive | richard.macko@gtigrows.com\nMelba Wood | Buyer | melba.wood@gtigrows.com\nEJ Frankel | Associate Buyer | ej.frankel@gtigrows.com",
+    "images": [
+      {
+        "filename": "image_27.png",
+        "path": "semantic_output/images/image_27.png",
+        "label": "Image 27: Example",
+        "number": 27,
+        "context_text": "LOCATION: Do not place orders under Grow Facility’s locations. \nExample: Requested order for District Cannabis Hagerstown- Retail and in LT options are: \n\n\nThe correct location in this case is the Dis",
+        "state": "MD",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_28.png",
+        "path": "semantic_output/images/image_28.png",
+        "label": "Image 28: Example",
+        "number": 28,
+        "context_text": "LOCATION: Do not place orders under Grow Facility’s locations. \nExample: Requested order for District Cannabis Hagerstown- Retail and in LT options are: \n\n\nThe correct location in this case is the Dis",
+        "state": "MD",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NJ",
+        "MD"
+      ],
+      "sections": [
+        "GENERAL",
+        "REGULAR"
+      ],
+      "topics": [
+        "NOTES"
+      ],
+      "element_count": 4,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 747,
+      "word_count": 104
+    }
+  },
+  {
+    "chunk_id": 26,
+    "text": "GTI NJ general info\n\nNEW JERSEY GENERAL INFO\n\nTeams channel: Rise NJ x HQ Orders Connect\n\nJeff Mangold is our POC for MD, NJ, for day-to-day things\n\nOrder cutoff time is 8 AM for next-day shipment\n\n6 Months EXP date on SKUs in NJ (related to batches)\n\nNJ RISE\n\nNEW JERSEY RISE ORDERS\n\nWe receive orders on different days throughout the week. Usually RISE orders for vapes, edibles on Thursday and RISE orders for Flower and Preroll are on Friday.\n\nThere are five shipping locations: Bloomfield REC1, Bloomfield MED, Paterson REC1, Paterson MED, and Paramus.\n\nWe should receive the Rise order sheet and Max Unit count via Teams. Please request access if you don’t have it!\n\nImage 1. Rise Order Sheet and MaxUnit tracker\n\nMENU: We are receiving the menu and requested unit counts in a different format compared to other states.",
+    "images": [
+      {
+        "filename": "image_29.png",
+        "path": "semantic_output/images/image_29.png",
+        "label": "Image 29",
+        "number": 29,
+        "context_text": "",
+        "state": "NJ",
+        "section": "RISE",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "RISE",
+        "GENERAL"
+      ],
+      "topics": [
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 14,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 825,
+      "word_count": 142
+    }
+  },
+  {
+    "chunk_id": 27,
+    "text": "Image 1. Rise Order Sheet and MaxUnit tracker\n\nMENU: We are receiving the menu and requested unit counts in a different format compared to other states.\n\nImage 2. Rise Menu\n\nIn the sheet on the right, we’ll see the requested number of cases. Based on availability, we should mark the cells as follows:\n\nGreen – Available and added to the order\n\nYellow – Limited availability, added to the order (e.g., 4 > 1 means 4 cases requested, 1 case added)\n\nRed – Not available and not added to the order\n\nPRICING: We should follow the menu pricing. No need to create the notes, just advise them that we used menu pricing.\n\nSAMPLE UNITS PRICING: If there is a product priced $1, that is the sample product. We don’t add those to the rise orders. In that case, please mark the item as OOS (red) and make a note.",
+    "images": [
+      {
+        "filename": "image_30.png",
+        "path": "semantic_output/images/image_30.png",
+        "label": "Image 30",
+        "number": 30,
+        "context_text": "",
+        "state": "NJ",
+        "section": "RISE",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "NOTES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 10,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 800,
+      "word_count": 148
+    }
+  },
+  {
+    "chunk_id": 28,
+    "text": "PRICING: We should follow the menu pricing. No need to create the notes, just advise them that we used menu pricing.\n\nBATCH: We should search for the product by name and select the available batch. In 80% of cases, only one batch will be available. If there are multiple options, please select the batch indicated on the right. If no batch is indicated, follow the THC% request. If that is not available as well, choose the batch according to FIFO.\n\nImage 3. Requested Batch\n\nDATE: We are adding dates to the orders. They should advise us on this.\n\nImage 4. Setting a delivery date\n\nUNITS TOTAL: The maximum total per order is 4,000 units. If there are more than 4,000 items, the order must be split. The second order will be scheduled for the next day.\n\nUNITS TOTAL PER DAY: There’s a daily limit of 4,000 units per store. For example, if we have an order for 1,500 units of edibles, another for 200 units of concentrates, and a third for 1,000 units of prerolls (that totals 2,700 units), that means we have 1,300 units of available space left for that delivery date. We should follow these daily limits whenever instructed to do so.",
+    "images": [
+      {
+        "filename": "image_31.png",
+        "path": "semantic_output/images/image_31.png",
+        "label": "Image 31",
+        "number": 31,
+        "context_text": "",
+        "state": "NJ",
+        "section": "RISE",
+        "topic": "BATCH_SUB"
+      },
+      {
+        "filename": "image_32.png",
+        "path": "semantic_output/images/image_32.png",
+        "label": "Image 32",
+        "number": 32,
+        "context_text": "",
+        "state": "NJ",
+        "section": "RISE",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "BATCH_SUB",
+        "ORDER_LIMIT",
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 9,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 1135,
+      "word_count": 204
+    }
+  },
+  {
+    "chunk_id": 29,
+    "text": "Image 4. Setting a delivery date\n\nINVOICES: There is no need to send the invoices (we can save them for our records). Ideally, also include the unit count and delivery date. Notes example:\n\nRise New Jersey - Bloomfield - REC #979802 - 3575 units - Tue delivery\n\nNOTES: There’s no need to include notes about out-of-stock (OOS) or limited-availability items, as these are already marked in their Rise menu. Since we are following menu pricing, there is no need to send those.\n\nImage 5. Shipping location / order no / delivery date / no of units\n\nBATCH SPLIT: We don’t do batch split (2 batches of the same product) if not necessary. If that is the only option, we can do it.\n\nLOOSE UNITS: We don’t add loose units to the rise orders (they keep those for regular orders)\n\nBATTERIES: Batteries must go on a separate invoice.",
+    "images": [
+      {
+        "filename": "image_33.png",
+        "path": "semantic_output/images/image_33.png",
+        "label": "Image 33",
+        "number": 33,
+        "context_text": "",
+        "state": "NJ",
+        "section": "RISE",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "ORDER_LIMIT",
+        "DELIVERY_DATE",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 8,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 821,
+      "word_count": 147
+    }
+  },
+  {
+    "chunk_id": 30,
+    "text": "LOOSE UNITS: We don’t add loose units to the rise orders (they keep those for regular orders)\n\nBATTERIES: Batteries must go on a separate invoice.\n\nPRODUCT LIMITS & SPLITTING ORDERS:\nIn NJ, we need to follow product limits per invoice. If a request exceeds the allowed quantity, the order must be split into multiple invoices.\n\nMaximum per invoice:\n\nRythm Flower Products: 240 units (8 cases)\n\nAll other products/categories: 250 units (10 cases)\n\nIf we receive a request for more than the allowed quantity (e.g., 13 cases), split the product into two orders — for example, enter 6 cases on one invoice and 7 on the second.\n\nRESERVED UNITS: Sometimes, units are reserved on different orders for Rise. A yellow note on the side will confirm this. In such cases, we need to move units from that order to our Rise order.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 8,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 816,
+      "word_count": 141
+    }
+  },
+  {
+    "chunk_id": 31,
+    "text": "All other products/categories: 250 units (10 cases)\n\nBefore moving any units, take a screenshot of the order to capture how many items of each product were originally there (one person in charge)\n\nAfter completing the orders for one product type (eg. Prerolls), take another screenshot and send it along with the notes (same person in charge)\n\nProcess of moving the units (there is a video tutorial in the teams group):\n\nOpen the order where the units are reserved (click Add/Edit).\n\nOpen the order you’re working on (click Add/Edit).\n\nIn the order you're working on, select \"Variant stock\", and from the drop-down menu, choose the dotted line.\n\nCopy the batch number of the product from the order where it’s reserved, then search for it in the order you're working on (the product should appear).\n\nGo back to the order where the product is reserved and remove the units you need (e.g., if there are 12 cases and you need 5, change the quantity to 7 and save the order).",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 9,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 970,
+      "word_count": 168
+    }
+  },
+  {
+    "chunk_id": 32,
+    "text": "In the order you're working on, select \"Variant stock\", and from the drop-down menu, choose the dotted line.\n\nOnce that order is saved, you’ll be able to pull those 5 cases into your order. Simply enter the quantity as 5 and save\n\nImage 6. Variant Stock\n\nImage 7. Yellow note about reserved items\n\nTRACKER - MaxUnit_Tracker_NJ.2025.xlsx\n\nThey have a special unit tracker that we should populate after placing the orders. After the orders are submitted and the delivery date is set, we can work on it.\n\nWe should mark the cells this way.\n\nImage 8. Tracker coloring\n\nImage 9. Tracker coloring\n\nWe are adding unit count to the product sheet (flower / preroll / edibles..) and to the delivery date sheet (Mon / Tue / Wed…)\n\nAlways make sure - MAX UNIT COUNT PER DAY IS 4K PER STORE",
+    "images": [
+      {
+        "filename": "image_34.png",
+        "path": "semantic_output/images/image_34.png",
+        "label": "Image 34",
+        "number": 34,
+        "context_text": "",
+        "state": "NJ",
+        "section": "RISE",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_35.png",
+        "path": "semantic_output/images/image_35.png",
+        "label": "Image 35",
+        "number": 35,
+        "context_text": "",
+        "state": "NJ",
+        "section": "RISE",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_36.png",
+        "path": "semantic_output/images/image_36.png",
+        "label": "Image 36",
+        "number": 36,
+        "context_text": "",
+        "state": "NJ",
+        "section": "RISE",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_37.png",
+        "path": "semantic_output/images/image_37.png",
+        "label": "Image 37",
+        "number": 37,
+        "context_text": "",
+        "state": "NJ",
+        "section": "RISE",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 15,
+      "has_images": true,
+      "image_count": 4,
+      "char_count": 777,
+      "word_count": 139
+    }
+  },
+  {
+    "chunk_id": 33,
+    "text": "Image 9. Tracker coloring\n\nAlways make sure - MAX UNIT COUNT PER DAY IS 4K PER STORE\n\nNJ regular orders\n\nNEW JERSEY REGULAR ORDERS\n\nMENU FORMAT: Most orders (approximately 95%) come through the Menu format. They are actively training buyers to order via Menu.\n\nPRICING: We always follow menu pricing. In most cases, menu prices will be lower than those listed in LT. The only exception is when the LT price is lower than the menu price—in that case, we use the LT price and make a note.\n\nSUBS: Since batch numbers are not listed in their menus, we fulfill orders based on the requested THC percentage (it should be the oldest batch available). If the requested THC level is out of stock, we follow FIFO. We do not make substitutions for other products.\n\nREC vs. MED: We usually prioritize REC over MED orders. However, always confirm this with the reps.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "RISE",
+        "REGULAR"
+      ],
+      "topics": [
+        "BATCH_SUB",
+        "NOTES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 8,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 853,
+      "word_count": 151
+    }
+  },
+  {
+    "chunk_id": 34,
+    "text": "REC vs. MED: We usually prioritize REC over MED orders. However, always confirm this with the reps.\n\nLESS AVAILABLE UNITS: If we receive a request for 2 cases and only 1 case is available, we can fulfill the 1 case and make a note.\n\nLOOSE UNITS: We do not use loose units for regular or RISE orders. Only if partial cases are requested, loose units can be used.\n\nBATTERIES: Batteries must go on a separate invoice.\n\nCASE SIZE: Always ensure the case size from the menu matches the one selected in LT. Discrepancies are common. If there is a difference, make a note and adjust pricing accordingly based on the case size.\n\nINTERNAL NOTES: For New Jersey (NJ) orders only, internal notes must be added in LT (Internal Notes).\n\nImage 1. Internal notes example\n\nSAMPLE PRODUCTS: If a product is priced at $1, it is considered a sample. These items should not be added to RISE orders. Instead, mark the item as OOS (red) and make a note.",
+    "images": [
+      {
+        "filename": "image_38.png",
+        "path": "semantic_output/images/image_38.png",
+        "label": "Image 38",
+        "number": 38,
+        "context_text": "",
+        "state": "NJ",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "BATCH_SUB",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 9,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 931,
+      "word_count": 168
+    }
+  },
+  {
+    "chunk_id": 35,
+    "text": "Image 1. Internal notes example\n\nORDER CHECK: At the top of every tab, there is a total summary. Always refer to it when placing an order.\n Note: Sometimes the summary formulas are incorrect and do not include all cells, which can cause discrepancies in order totals. If this happens, make a note.\n\nDISCOUNT: Discounts are listed on the menu. Any additional discounts are communicated via email.\n\nORDER SPLIT: If an order has more than 50 line items, it must be split accordingly.\n Example: A RISE order with 150 lines should be split into 3 orders of 50 lines each.\n\nSAMPLE ORDER: If a request for samples is received (rare), they should be placed as a new order.\n\nTWO MENU FORMATS: If an NJ order email includes two Excel menus for the same store, combine them into one order in LT.",
+    "images": [
+      {
+        "filename": "image_38.png",
+        "path": "semantic_output/images/image_38.png",
+        "label": "Image 38",
+        "number": 38,
+        "context_text": "",
+        "state": "NJ",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NJ"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "SAMPLES",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 784,
+      "word_count": 140
+    }
+  },
+  {
+    "chunk_id": 36,
+    "text": "TWO MENU FORMATS: If an NJ order email includes two Excel menus for the same store, combine them into one order in LT.\n\nNOTES FORMAT: Always follow this format for notes:\n 0/30 Animal Face 3.5g Rythm\n 25/50 Brownie Scout 7g Rythm\n\nGTI IL general info\n\nIlILLINOIS GENERAL INFO\n\nIL GTI Team | IL GTI Team\nPatrick Hannigan | Commercial General Manager (CGM) | patrick.hannigan@gtigrows.com\nWes Philpott | Sales Director | wes.philpott@gtigrows.com\nHarrison Burt | Sales Manager | harrison.burt@gtigrows.com\nDevin DeClercq | Sales Manager | devin.declercq@gtigrows.com\nTy Ross | Account Executive | ty.ross@gtigrows.com\nKensey Williams | Account Executive | kensey.williams@gtigrows.com\nPreston Van Dervort | Account Executive | preston.van-dervort@gtigrows.com\nMichael Robot | Buyer | michael.robot@gtigrows.com\nShelby McMillin | Associate Buyer | shelby.mcmillin@gtigrows.com",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NJ",
+        "IL"
+      ],
+      "sections": [
+        "GENERAL",
+        "REGULAR"
+      ],
+      "topics": [
+        "NOTES",
+        "SAMPLES"
+      ],
+      "element_count": 5,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 873,
+      "word_count": 120
+    }
+  },
+  {
+    "chunk_id": 37,
+    "text": "GTI IL general info\n\nIlILLINOIS GENERAL INFO\n\nCuttoff for order placement is during the time we punch in RISE orders (RISE orders usually come as early as 10 AM and as late as 3 PM)\n\nNo special order prioritization—FIFO rules—unless its a brand new store, but the rep will specify it.\n\nIL RISE\n\nILLINOIS RISE ORDERS\n\nSTORES: There are 10 Rise stores (Canton, Charleston, Effingham, Joliet Colorado, Joliet Rock, Lake in the hills, Mundelein, Naperville, Niles, Quincy)\n\nBATTERIES: Batteries go on separate invoices!\n\nORDER SPLIT: If the order is above 150k or has more than 8k units, you need to split the order equally.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "IL"
+      ],
+      "sections": [
+        "RISE",
+        "GENERAL"
+      ],
+      "topics": [
+        "BATCH_SUB",
+        "INVOICES",
+        "ORDER_LIMIT",
+        "NOTES"
+      ],
+      "element_count": 9,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 620,
+      "word_count": 104
+    }
+  },
+  {
+    "chunk_id": 38,
+    "text": "BATTERIES: Batteries go on separate invoices!\n\nORDER SPLIT: If the order is above 150k or has more than 8k units, you need to split the order equally.\n\nBATCH SUB: We always use the batch provided in the menu. If it is OOS we can sub the batch following FIFO and make the note (try to stay within the same THC% tens - eg. 30%, 40% for flowers and prerolls).. If the item is totally OOS, we make a note as well (We do not substitute with different flavours of the same item).\n\nPRICING: We follow the LT pricing - if not instructed to follow the menu.\n\nDISCOUNT: RISE orders do not succumb to any discounts",
+    "images": [],
+    "metadata": {
+      "states": [
+        "IL"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "INVOICES",
+        "PRICING",
+        "ORDER_LIMIT",
+        "NOTES"
+      ],
+      "element_count": 5,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 603,
+      "word_count": 115
+    }
+  },
+  {
+    "chunk_id": 39,
+    "text": "PRICING: We follow the LT pricing - if not instructed to follow the menu.\n\nDISCOUNT: RISE orders do not succumb to any discounts\n\nORDER CHECK: Make sure to double-check the requested number of units and the total number of units in the order (see if they match, including your notes)\n\nThere might be a second tab on the menu - please check if we should enter those units as well - should be advised in the rise email.\n\nLOOSE UNITS: We ADD LOOSE UNITS ONLY if that is the last batch (units available)\n\nCASE SIZE: Case sizes might differ from time to time; make sure to double-check. (They might request a case of 30, but only cases of 25 are available; you can freely add those and make notes about them.)\n\nLESS AVAILABLE: If we have for example, 2 available cases out of 4 requested (and there is no other batch available) we add those 2 and make a note. If there are 2 cases available, but there is another batch, we pull these 2 cases from the requested batch, and add 2 cases from another batch. Always make a note about it!",
+    "images": [],
+    "metadata": {
+      "states": [
+        "IL"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 1027,
+      "word_count": 193
+    }
+  },
+  {
+    "chunk_id": 40,
+    "text": "LOOSE UNITS: We ADD LOOSE UNITS ONLY if that is the last batch (units available)\n\nINVOICES: We don't need to save the PDF invoices\n\nNOTES FORMAT: (please put No available notes on top)\n\nNo available item: 0/30 3.5g Afternoon Delight #4 (Hybrid) Rythm Flower\n\nLess available item: 30/60 Afternoon Delight #4 (Hybrid) Rythm Flower\n\nBatch SUB: Blue Dream Cartridge (NCD) 500mg - andShine (Hybrid), batch 0411 7409 2531 6188 not available sub with 7221 1359 3488 3442\n\nWrong price: A la mode Cartridge (Live Resin) 500mg - Rythm (Hybrid) - LT price of $600 has been changed to the menu price of $312.50",
+    "images": [],
+    "metadata": {
+      "states": [
+        "IL"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "BATCH_SUB",
+        "LESS_AVAILABLE",
+        "INVOICES",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 598,
+      "word_count": 103
+    }
+  },
+  {
+    "chunk_id": 41,
+    "text": "Wrong price: A la mode Cartridge (Live Resin) 500mg - Rythm (Hybrid) - LT price of $600 has been changed to the menu price of $312.50\n\nIL regular orders\n\nILLINOIS REGULAR ORDERS\n\nMENU: Typically, we receive the order request in the menu form\n\nImage 1: Menu form\n\nREC VS MED: Please ALWAYS select MED if that's the option\n\nDISCOUNTS: Most discounts (e.g., 20%, 30%) are already set up in Leaftrade.\n\nHowever, there are times when we’re asked to apply a discount that isn’t pre-configured in LT.\n\nIf the discount shown in LT matches what they requested via email, proceed with it and simply include a note with the invoice—for example, “20% discount applied.”\n\nIf the discount in LT is greater than what was requested (e.g., they asked for 20%, but LT shows 30%), confirm with the rep.\n\nIf the discount in LT is lower than what was requested (e.g., LT shows 20%, but the rep requested 30%), confirm in the discount doc and with Valerie.",
+    "images": [
+      {
+        "filename": "image_39.png",
+        "path": "semantic_output/images/image_39.png",
+        "label": "Image 39",
+        "number": 39,
+        "context_text": "",
+        "state": "IL",
+        "section": "REGULAR",
+        "topic": "PRICING"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "IL"
+      ],
+      "sections": [
+        "RISE",
+        "REGULAR"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 12,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 934,
+      "word_count": 165
+    }
+  },
+  {
+    "chunk_id": 42,
+    "text": "If the discount in LT is lower than what was requested (e.g., LT shows 20%, but the rep requested 30%), confirm in the discount doc and with Valerie.\n\nWhen checking the discount, the best approach is to create a new column with a manual pricing formula — for example: unit price × 0.8 × case size\n\nAdditionally, some SKUs may be on promotion, listed in the \"Promo price\" column. These promo prices may or may not be reflected in LT, so always double-check and apply manually if needed.\n\nImage 2: Promo price colum\n\nBATCH SUB - THC% PRIORITY: For flowers and pre-rolls, we prioritize the THC percentage. If the batch with the requested THC% is out of stock, we should make a batch substitution, aiming to stay within the same 10% range (e.g., 20s, 30s, etc.).\n\nBATCH SUB - FIFO PRIORITY: For all other products (excluding flower and pre-rolls), if the requested batch is out of stock, we make a batch substitution following FIFO.",
+    "images": [
+      {
+        "filename": "image_40.png",
+        "path": "semantic_output/images/image_40.png",
+        "label": "Image 40",
+        "number": 40,
+        "context_text": "",
+        "state": "IL",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "IL"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "BATCH_SUB",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 928,
+      "word_count": 164
+    }
+  },
+  {
+    "chunk_id": 43,
+    "text": "Image 2: Promo price colum\n\nBATTERIES: Batteries must go on a separate invoice.\n\nLOOSE UNITS: We add loose units only if that is the last batch available or if a partial case is requested. We never split a loose unit's batch.\n\nFor example, if a retailer asks for a partial case and there are two batches — one with 20 units and another with 8 units — we should add either all 20 or all 8 units. We should never take 15 units out of the batch of 20. There is no minimum limit; we can add batch with 2 or 3 units as well.\n\nImage 3: Loose units rule\n\nLESS AVAILABLE UNITS: If we receive a request for 2 cases and only 1 case is available, we can fulfill the 1 case and make a note.\n\nSAMPLES: Samples are placed inside orders not separate from the order but the price rule applies the same ($0.01 per unit)\n\nORDER CHECK: The order total (in dollars) at the top of the menu is often not accurate, so we verify order accuracy by checking the total number of units instead.",
+    "images": [
+      {
+        "filename": "image_41.png",
+        "path": "semantic_output/images/image_41.png",
+        "label": "Image 41",
+        "number": 41,
+        "context_text": "",
+        "state": "IL",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "IL"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "INVOICES",
+        "SAMPLES",
+        "NOTES"
+      ],
+      "element_count": 9,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 966,
+      "word_count": 188
+    }
+  },
+  {
+    "chunk_id": 44,
+    "text": "SAMPLES: Samples are placed inside orders not separate from the order but the price rule applies the same ($0.01 per unit)\n\nWe calculate the total units listed in the menu and compare them with the unit total entered in the order to ensure they match.\n\nIf any items are out of stock, please mark that cell on the excel file in red and send the excel sheet back with the invoices\n\nIL account details\n\nILLINOIS ACCOUNTS\n\n*Beyond Hello:\n\nSauget 1 = Goose Lake\n\nSauget 2  = Mississippi\n\nMission South Shore - LT: Mission Illinois - South Chicago - REC / MED\n\nUMI Lincoln Park - LT: ÜMI - Chicago - REC\n\nViola The Village - LT: Viola IL - Broadview - REC",
+    "images": [],
+    "metadata": {
+      "states": [
+        "IL"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "SAMPLES"
+      ],
+      "element_count": 11,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 649,
+      "word_count": 122
+    }
+  },
+  {
+    "chunk_id": 45,
+    "text": "UMI Lincoln Park - LT: ÜMI - Chicago - REC\n\nViola The Village - LT: Viola IL - Broadview - REC\n\nGTI NY general info\n\nNEW YORK GENERAL INFO\n\nOH GTI Team | OH GTI Team\nNelson Guerrero | Account Executive | nelson.guerrero@gtigrows.com\nFrankie Anetzberger | Sales Manger | frankie.anetzberger@gtigrows.com\nTara Comba | Sales Director | tara.comba@gtigrows.com\nLincoln Campbell | GM | lcampbell@gtigrows.com\nDylan Balaban | Account Executive | dylan.balaban@gtigrows.com\nJohnny Zapata | Account Executive | johnny.zapata@gtigrows.com\nKevin Doherty | Account Executive | Kevin.Doherty@gtigrows.com\n\nTeams channels:\n\nHQ NY x Nelson\n\nHQ x GTI NY - Frankie\n\nCommunication preference: immediate attention - Teams, second comm form - email, super important - call\n\nOnboarding call notes:\n\nOrange county cannabis - key account, Sour Diesel Rhythm 1/8ths, 1/4ths are a favorite and they will scoop up. New strains - put cases aside for them (1/8th). They have a bud bar so they send a single unit for them (sample). Chantelle is the buyer and will text or email for a refresh in the bud bar. Good to order 1 order a month if not 2.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NY",
+        "IL"
+      ],
+      "sections": [
+        "GENERAL",
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "SAMPLES",
+        "NOTES"
+      ],
+      "element_count": 11,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 1119,
+      "word_count": 182
+    }
+  },
+  {
+    "chunk_id": 46,
+    "text": "Communication preference: immediate attention - Teams, second comm form - email, super important - call\n\nOnboarding call notes:\n\nStage 1 - dropped off the map a little, and they are a bit off and on with ordering. He will meet with the buyer and go over the store with them. Brownie Scout, Sour Diesel, not open to new strains, White Durban (high testing- over 25%). New strains that are higher testing, they are open to it. Not open to subs typically. Backup batch is fine as long as the THC is close. Was ordering every week, but when strains are not available, they fell off the schedule.\n\nCapital District Cannabis in Albany - sends the menu over usually. 1-2 times a month order.\n\nElevate - key account in terms of bandwidth, a while since they ordered, consistent with DW multipks. THey buy everything. Brownie Scout, Sour Diesel - anything above 22%. Big on infused DW.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "INVOICES",
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 5,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 876,
+      "word_count": 155
+    }
+  },
+  {
+    "chunk_id": 47,
+    "text": "Capital District Cannabis in Albany - sends the menu over usually. 1-2 times a month order.\n\nSilver Therapeutics (Silver Cannabis Company) - fairly new, they have stores in MA as well. Rythm 8ths, DW multipck, Beboe vapes and gummies.\n\nTHC Herbal vault - tricky in terms of ordering. A lot of times they send orders to the Accounting email, the order gets forwarded to Frankie.\n\nHe will send accounts that have Bud Bars for sampling.\n\nOn orders 10k or more, they include samples. About 10% of order (in units).\n\nInvoice naming convention - make sure to put Mock invoice (Account - Mock order - date)",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NY",
+        "MA"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "SAMPLES",
+        "INVOICES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 6,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 599,
+      "word_count": 105
+    }
+  },
+  {
+    "chunk_id": 48,
+    "text": "He will send accounts that have Bud Bars for sampling.\n\nInvoice naming convention - make sure to put Mock invoice (Account - Mock order - date)\n\nNY team oversees some MED accounts - Columbia Care, Veralife, Verio - all of them are open to subs and revisions\n\nVeralife MED, they don’t require $5k minimum on all stores. As long as the order AVG is around 5k it will be fine.\n\nTravel Agency - High priority, 3 locations. Pretty big weekly orders, not specific, but prioritize them if there is only 500 of a sku left.\n\nHousingworks - into Rythm, when a new sku is dropping they will order, they put in regular bi-weekly orders. But if a new product drops they will order that. When under 5k minimum, they were able to add a couple of SKUs.\n\nHappy Days - biggest spender in Long Island, they reach out to Lincoln but Douglas is cc’d. They get a menu a couple of days early and might ask to put some Skus aside.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NY",
+        "MA"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "INVOICES",
+        "SAMPLES"
+      ],
+      "element_count": 7,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 906,
+      "word_count": 171
+    }
+  },
+  {
+    "chunk_id": 49,
+    "text": "Travel Agency - High priority, 3 locations. Pretty big weekly orders, not specific, but prioritize them if there is only 500 of a sku left.\n\nHappy Monkey - soft opening on Saturday but have been labeled as priority. Just submitted their 1st order.\n\nMost of the orders are on the template - 3 or 4 accounts text or call and have him do the order live over the phone. Now they are moved over to email. 90% are on the template.\n\nAverage unit count for higher spenders is about 25000+ in $ value as for units it depends.\n\nAverage order is 10-13k $.\n\nFor higher end orders they sometimes give discounts or samples - or have promos on the menu.\n\nCommunication method preference - text msg or a call if we need to reach immediately, doesn’t like email (Outlook specifically), teams works great as well.\n\nNaming convention preference - open to anything, using the invoices directly off Leaf Trade.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "INVOICES",
+        "SAMPLES"
+      ],
+      "element_count": 8,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 889,
+      "word_count": 159
+    }
+  },
+  {
+    "chunk_id": 50,
+    "text": "Naming convention preference - open to anything, using the invoices directly off Leaf Trade.\n\nSUBs - high priority accounts accept subs. If it’s too many subs they might ask for a live menu and change the order. It depends on the retailer so he can text them.\n\nOrder heavy - Wed-Fri. Mondays can be sometimes. Wed-Thu is busiest and Fri-Mon is less busy but something happens.\n\nSpends about 7-10 orders (Travel Agency can take about 30 mins to do). 3-4 hours. From submission to approval takes about 4 hours on busy days.\n\nDoesn't really have time to prospect on Wed-Fri.\n\nNelson\nRise stores: priority by $ amount as the other reps\n\nAs for SUBs, just leave it out of the order and note what was missing\n\nCommunication preference: email is good for visibility but he is always on his phone and teams.\n\nHe gets the orders sent to his phone usually but he can send it to us in any way",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 9,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 881,
+      "word_count": 161
+    }
+  },
+  {
+    "chunk_id": 51,
+    "text": "As for SUBs, just leave it out of the order and note what was missing\n\nHe gets the orders sent to his phone usually but he can send it to us in any way\n\nThe majority use the order form\n\nNative Haze usually uses the order form and sometimes they send it via email\nWed-Thur is the heaviest for orders (the day or the day after) as the menu gets sent out on Wed\n\nOther stores than Rise - he doesn’t mind us selecting SUBs and notating that to him\n\nSamples: sometimes he enters sample orders himself, for certain stores, they like to send out at least one jar of the 1/8oz as a shelf sample of new items\n\nFlinstone requires 3 samples since they are a huge store.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "SAMPLES",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 658,
+      "word_count": 129
+    }
+  },
+  {
+    "chunk_id": 52,
+    "text": "Other stores than Rise - he doesn’t mind us selecting SUBs and notating that to him\n\nFlinstone requires 3 samples since they are a huge store.\n\nNY RISE\n\nRISE NY\n\nWe usually receive orders on Friday!\n\nTeams channel for any questions: HQ x GTI NY - Frankie\n\nThere are five shipping locations: Hanrietta, Halfmoon, E. Syracuse, Manhattan (New York in LT), Long Beach - sometimes we receive rice only for 4 stores\n\nWe receive the orders in the menu format\n\nWe always use MED license for rise\n\nNelson is primarily responsible for RISE orders, so we should direct any questions about pricing and related matters to him.\n\nImage 1. Menu format\n\nPRIORITY: We are usually instructed to prioritize orders based on dollar amount. Henrietta is typically the largest one.\n\nPRICING: We should follow the menu pricing. ALWAYS double-check which pricing we should use! LT has lower prices than the menu.",
+    "images": [
+      {
+        "filename": "image_42.png",
+        "path": "semantic_output/images/image_42.png",
+        "label": "Image 42",
+        "number": 42,
+        "context_text": "",
+        "state": "NY",
+        "section": "RISE",
+        "topic": "PRICING"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "RISE",
+        "GENERAL"
+      ],
+      "topics": [
+        "SAMPLES",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 14,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 886,
+      "word_count": 150
+    }
+  },
+  {
+    "chunk_id": 53,
+    "text": "Image 1. Menu format\n\nPRICING: We should follow the menu pricing. ALWAYS double-check which pricing we should use! LT has lower prices than the menu.\n\nBATCH: We should place the orders according to the batch numbers listed in column “B.” If a specific batch is not available, we should proceed based on FIFO. Always double-check that the batch corresponds to the correct product—sometimes the batch numbers are incorrect!\n\nCASE SIZE: We should always prioritize case-size products. If the request differs—e.g., the case size is 25 and they’re requesting 10 units—we should add 10 loose units to the order.\n\nIf they request 30 units and the case size is 25, we should add 1 full case and 5 loose units.\n\nLESS AVAILABLE UNITS: We can add less available units and make a note - e.g., requested 30 units, but only 12 are available. Note examples: Less available item: 12/30 (product name)",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "BATCH_SUB",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 6,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 884,
+      "word_count": 150
+    }
+  },
+  {
+    "chunk_id": 54,
+    "text": "If they request 30 units and the case size is 25, we should add 1 full case and 5 loose units.\n\nINVOICES: There’s no need to send invoices at the end, just the notes.\n\nBATTERIES: Batteries can go on the same invoice as other products\n\nNY regular orders\n\nNY REGULAR ORDERS\n\nhttps://app.avoma.com/meetings/50bbb942-3597-4a74-83de-7e09e7a898d5\n\nhttps://app.avoma.com/meetings/88d7c085-9606-4501-94a9-616151233b51\n\nOrder placing process:\n\nThe process starts when a Sales rep sends an order to the NY Headquarters email. This is a group email address that contains all HQ contractors working on the GTI Account.\n\nThere are a couple of ways the reps send orders:\n\nMenu in Excel format where the retailer has marked which products they want, how many cases & which TAC %. This is the best way to receive orders because it provides the exact Product Name, exact TAC % and case size as well as the Request Summary.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "RISE",
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 11,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 905,
+      "word_count": 144
+    }
+  },
+  {
+    "chunk_id": 55,
+    "text": "There are a couple of ways the reps send orders:\n\nImage 1. Email containing the menu order form\n\nNOTE: when the reps mention to prioritize orders by dollar amount, it means that we should place the branch with the highest $ total and go on to the lowest from there. This is only for stores with more than 2 locations.\n\nImage 2. Order format in menu order form\n\nImage 3. Order request summary\n\nIn email order - Excel table or just a list.This way of receiving orders can be a little bit more complicated because the buyers do not name the products correctly a lot of the time, which results in a bit more time spent searching for the product in Leaf Trade.\n\nImage 4. Example of an email order\n\n2. Go to Leaf Trade, Sales—> Account —> GTI NY —-> Orders\n\n3. Click New order\n\n4. Choose a Retailer from the Dropdown menu, the rep will indicate the Store name, location, and in most cases, if we are sending the order to their Recreational License or Medical License (if they have both), and click Create.",
+    "images": [
+      {
+        "filename": "image_43.png",
+        "path": "semantic_output/images/image_43.png",
+        "label": "Image 43",
+        "number": 43,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "CASE_SIZE"
+      },
+      {
+        "filename": "image_44.png",
+        "path": "semantic_output/images/image_44.png",
+        "label": "Image 44: Image 2. Order format in menu order form",
+        "number": 44,
+        "context_text": "Image 2. Order format in menu order form",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_45.png",
+        "path": "semantic_output/images/image_45.png",
+        "label": "Image 45: Image 3. Order request summary",
+        "number": 45,
+        "context_text": "Image 3. Order request summary",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_46.png",
+        "path": "semantic_output/images/image_46.png",
+        "label": "Image 46: Image 4. Example of an email order",
+        "number": 46,
+        "context_text": "Image 4. Example of an email order",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_47.png",
+        "path": "semantic_output/images/image_47.png",
+        "label": "Image 47: 2. Go to Leaf Trade, Sales—> Account —> GTI NY",
+        "number": 47,
+        "context_text": "2. Go to Leaf Trade, Sales—> Account —> GTI NY —-> Orders",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_48.png",
+        "path": "semantic_output/images/image_48.png",
+        "label": "Image 48: 3. Click New order",
+        "number": 48,
+        "context_text": "3. Click New order",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 11,
+      "has_images": true,
+      "image_count": 6,
+      "char_count": 999,
+      "word_count": 186
+    }
+  },
+  {
+    "chunk_id": 56,
+    "text": "2. Go to Leaf Trade, Sales—> Account —> GTI NY —-> Orders\n\n3. Click New order\n\nImage 5. Retailer Dropdown in Leaf Trade\n\n5. Copy & Paste or type out the product name in the Search bar. If the product you’re adding to the order is a MIP, make sure the LAB RESULT D is filtered so the arrow is pointing UP (FIFO principle is applied here). \n\n\nImage 6. Product Search Bar\n\nSome items usually don’t come up in LeafTrade under the name that is listed in the Menu Order Form and that is because the name does not match what is the item under in the system. In this case, the &Shine items don’t show for NY as they use andShine name instead of the &Shine. \nSo you would need to adjust that name in the search bar so it comes up.\n\nImage 7. Product name Search Bar\n\nNote: If some of the requested products are not available (either completely unavailable or the requested THC % is not available) leave a note with how many units they requested next to the name of the item and how much we have left in stock if any. DO NOT add to order as the sales reps would need to check which products the retailer want to use as substitutes. \nI.e: \nRythm - Cereal Milk #1 - Live Rosin Vape Cartridge - .5g  - requested 50",
+    "images": [
+      {
+        "filename": "image_47.png",
+        "path": "semantic_output/images/image_47.png",
+        "label": "Image 47: 2. Go to Leaf Trade, Sales—> Account —> GTI NY",
+        "number": 47,
+        "context_text": "2. Go to Leaf Trade, Sales—> Account —> GTI NY —-> Orders",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_48.png",
+        "path": "semantic_output/images/image_48.png",
+        "label": "Image 48: 3. Click New order",
+        "number": 48,
+        "context_text": "3. Click New order",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_49.png",
+        "path": "semantic_output/images/image_49.png",
+        "label": "Image 49",
+        "number": 49,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_50.png",
+        "path": "semantic_output/images/image_50.png",
+        "label": "Image 50: Image 6. Product Search Bar",
+        "number": 50,
+        "context_text": "5. Copy & Paste or type out the product name in the Search bar. If the product you’re adding to the order is a MIP, make sure the LAB RESULT D is filtered so the arrow is pointing UP (FIFO principle i",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "BATCH_SUB"
+      },
+      {
+        "filename": "image_51.png",
+        "path": "semantic_output/images/image_51.png",
+        "label": "Image 51",
+        "number": 51,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "BATCH_SUB"
+      },
+      {
+        "filename": "image_52.png",
+        "path": "semantic_output/images/image_52.png",
+        "label": "Image 52",
+        "number": 52,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "BATCH_SUB"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "BATCH_SUB",
+        "NOTES"
+      ],
+      "element_count": 9,
+      "has_images": true,
+      "image_count": 6,
+      "char_count": 1200,
+      "word_count": 234
+    }
+  },
+  {
+    "chunk_id": 57,
+    "text": "Image 7. Product name Search Bar\n\nwe have 0\n\n6. Keep in mind that each product listed represents 1 Case so if you are supposed to add 2 cases of the same product you will have to type in 2 in the Quantity Section if the name contains something that indicates the case size: (a case of 25) this will add 2 of the same products to the order. However, if the retailer wants 30 and the case size is 20, you can add 1 of the 20, and then you will see another item name but without the case size - those are loose items - you can add 10 of the loose ones to match what the retailer requested.\n\n//**\n\nImage 8. Adding products to the order\n\n7. Once all the products are added, make sure you check the Pricing against the Menu order form or the latest Menu if the order was in mail, adjust the pricing if needed, and click Save.",
+    "images": [
+      {
+        "filename": "image_51.png",
+        "path": "semantic_output/images/image_51.png",
+        "label": "Image 51",
+        "number": 51,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "BATCH_SUB"
+      },
+      {
+        "filename": "image_52.png",
+        "path": "semantic_output/images/image_52.png",
+        "label": "Image 52",
+        "number": 52,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "BATCH_SUB"
+      },
+      {
+        "filename": "image_53.png",
+        "path": "semantic_output/images/image_53.png",
+        "label": "Image 53: 6. Keep in mind that each product listed represents 1",
+        "number": 53,
+        "context_text": "6. Keep in mind that each product listed represents 1 Case so if you are supposed to add 2 cases of the same product you will have to type in 2 in the Quantity Section if the name contains something t",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "CASE_SIZE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "BATCH_SUB",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 819,
+      "word_count": 165
+    }
+  },
+  {
+    "chunk_id": 58,
+    "text": "//**\n\nImage 8. Adding products to the order\n\nNote: Sometimes the promo pricing is not reflected in Leaf Trade so it has to be manually adjusted in the order. \n\n8. Once the order is saved, you will end up on the Order Details Screen. In the Order Summary section, click View Draft - this will open the Draft Invoice.\nImage 9. Order Summary Screen\n\n9. Click on Download PDF - this will open a Print Screen, make sure you pick the Save as PDF option in the Destination, Click Save. \nImage 10. Draft Invoice Screen - Download PDF\n\n10. Add the store name as the extension of the Invoice number. Save the Draft invoice at a destination on your computer of your choosing.\n\nImage 11. Draft Invoice naming convention\n\n11. Go back to the email containing the order and REPLY ALL to the rep with the below text and the draft invoice attachment. \n“Hi {NAME},",
+    "images": [
+      {
+        "filename": "image_54.png",
+        "path": "semantic_output/images/image_54.png",
+        "label": "Image 54: Image 9. Order Summary Screen",
+        "number": 54,
+        "context_text": "Note: Sometimes the promo pricing is not reflected in Leaf Trade so it has to be manually adjusted in the order. \n\n8. Once the order is saved, you will end up on the Order Details Screen. In the Order",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_55.png",
+        "path": "semantic_output/images/image_55.png",
+        "label": "Image 55: Image 10. Draft Invoice Screen - Download PDF",
+        "number": 55,
+        "context_text": "9. Click on Download PDF - this will open a Print Screen, make sure you pick the Save as PDF option in the Destination, Click Save. \nImage 10. Draft Invoice Screen - Download PDF",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      },
+      {
+        "filename": "image_56.png",
+        "path": "semantic_output/images/image_56.png",
+        "label": "Image 56: 10. Add the store name as the extension of the",
+        "number": 56,
+        "context_text": "10. Add the store name as the extension of the Invoice number. Save the Draft invoice at a destination on your computer of your choosing.",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 846,
+      "word_count": 155
+    }
+  },
+  {
+    "chunk_id": 59,
+    "text": "10. Add the store name as the extension of the Invoice number. Save the Draft invoice at a destination on your computer of your choosing.\n\n11. Go back to the email containing the order and REPLY ALL to the rep with the below text and the draft invoice attachment. \n“Hi {NAME},\n\nOrder submitted in Revised Status, draft invoice attached.\n\nPlease let us know if this is good to be approved.\n\nThanks,\n\n{Your Name}”\n\nAlways type out these changes in the email back to the rep, in the following format:\n\nImage 8. SUB Format\n\nDouble-check the name of the product if you are using the batch number to search the product, when the batch is OOS, LeafTrade will give you results for other products.",
+    "images": [
+      {
+        "filename": "image_56.png",
+        "path": "semantic_output/images/image_56.png",
+        "label": "Image 56: 10. Add the store name as the extension of the",
+        "number": 56,
+        "context_text": "10. Add the store name as the extension of the Invoice number. Save the Draft invoice at a destination on your computer of your choosing.",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      },
+      {
+        "filename": "image_57.png",
+        "path": "semantic_output/images/image_57.png",
+        "label": "Image 57: Image 8. SUB Format",
+        "number": 57,
+        "context_text": "Image 8. SUB Format",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES"
+      ],
+      "element_count": 9,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 688,
+      "word_count": 123
+    }
+  },
+  {
+    "chunk_id": 60,
+    "text": "Always type out these changes in the email back to the rep, in the following format:\n\nImage 8. SUB Format\n\nGTI NV general info\n\nNEVADA GENERAL INFO\n\nNJ GTI Team | NJ GTI Team\nMaggie Presley | Sales Director | maggie.presley@gtigrows.com\nJosh Sepulveda | Buyer | Josh.Sepulveda@gtigrows.com\nPatrick Hannigan | Commercial General Manager | Patrick.Hannigan@gtigrows.com\nAndrew Acevedo | Buyer | andrew.acevedo@gtigrows.com\n\nOrder Entry process:\n\nhttps://app.avoma.com/meetings/bfa308d9-3277-45dd-a813-41e3275f82c3\n\nSubmitting orders via email\n\nWe should always follow the LT pricing\n\nOLD INFO\n\nNotes\n\nPricing - almost never will be discounted pricing given to Rise, except penny goods for testing and staff\n\nSince they don’t give discount and what we can do for Rise stores is to check if front pricing is correct\n\nThey place the orders on Friday morning and are usually ready around 10-11am PST. The whole to do would be for Rise on Fridays.",
+    "images": [
+      {
+        "filename": "image_57.png",
+        "path": "semantic_output/images/image_57.png",
+        "label": "Image 57: Image 8. SUB Format",
+        "number": 57,
+        "context_text": "Image 8. SUB Format",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NV",
+        "NY"
+      ],
+      "sections": [
+        "GENERAL",
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 14,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 940,
+      "word_count": 142
+    }
+  },
+  {
+    "chunk_id": 61,
+    "text": "They place the orders on Friday morning and are usually ready around 10-11am PST. The whole to do would be for Rise on Fridays.\n\nThey will refresh the inventory for the internal buying on Friday.\n\nAfter the 5pm upload on Thursday for wholesale customers, no orders should get processed until the Rise orders are submitted.\n\nThere should be 0 instances where what they are trying to order is not there.\n\nIf something is by chance not available, don’t sub for anything except the exact same product but a different batch.\n\nAdjust the menu form to the quantity that was actually available.\n\nFor quick questions contact Josh\n\nAri is transitioning from the NV buyer position\n\nThey will send us the order form for tomorrow.\n\nNotes\n\nTeams for comms\n\n10-11 am PT on Friday for Internal orders\n\nMaggie's capture is open until Thursday 5pm",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 13,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 829,
+      "word_count": 142
+    }
+  },
+  {
+    "chunk_id": 62,
+    "text": "Teams for comms\n\n10-11 am PT on Friday for Internal orders\n\nMaggie's capture is open until Thursday 5pm\n\nAdjust the order form to make sure the units that were added\n\nAdd notes as to which products were adjusted\n\nGo back to the orders and adjust pricing for tester products 0.01\n\nAndrew Asavedo\n\nCreate a group chat for Allocations - Josh, Andrew\n\nCreate a chat for BOT questions - Joe, Val, Brian\n\nIf they requested 25 units and all we have is 50, check in with Josh on the chat\n\nWhere there are options to default to 50 case packs and they ordered 4x25 packs, we can replace them with 2x50 case packs.\n\nSep 3, 2024 | HQ Intro with Andrew Acevedo\n\nAttendees: Catie Lazic andrew.acevedo@gtigrows.com Brian Amend Patrick Hannigan\n\nNotes\n\nAssistant buyer in NV\n\nWorks exclusively on Rise orders\n\nAdd Patrick to the Allocations group\n\nNVHeadquarters@gtigrows.com",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 18,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 859,
+      "word_count": 146
+    }
+  },
+  {
+    "chunk_id": 63,
+    "text": "Works exclusively on Rise orders\n\nAdd Patrick to the Allocations group\n\nNVHeadquarters@gtigrows.com\n\nWill submit the orders through teams\n\nMake sure to check the pricing. If there is anything in LT at $0, notify the team.\n\nSep 4, 2024 | HQ Intro with Maggie Presley\n\nAttendees: Catie Lazic Brian Amend Maggie Presley Patrick Hannigan\n\nNotes\n\nSubmitting orders via email\n\nMaggie will send to our team and to NVorder email so they can have visibility\n\nShe gets orders all kind of ways - text, phone call, submitted on the order sheet\n\nShe will submit them via email no matter how she received\n\nNo special pricing normally, pricing is communicated through the pricing sheet, any special pricing will be communicated to us\n\nTwo ways pricing will be changed - Master pricing sheet has frontline pricing, each one of the tabs has the same sheet but with special pricing for each customer. LT has pricing rules per customer which will cover 90% of special pricing customers",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 14,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 966,
+      "word_count": 162
+    }
+  },
+  {
+    "chunk_id": 64,
+    "text": "No special pricing normally, pricing is communicated through the pricing sheet, any special pricing will be communicated to us\n\nPO orders can be confusing - because stores don’t know where products are coming from. Timing for the orders, paperwork by Wednesday, they pick up orders on Friday.\n\nDeep Roots - long lead time or steps that need to take place\n\nAyr - they have a PO process that we have to abide by, takes all the order that they just order and matching and letting them know where the shortcomings are\n\nThrive - they want their paperwork sooner that typical\n\nPlanet 13  - large lead time, put the orders in and reserve inventory\n\nRelaxed re. Subs - about 70% of clients\n\nZenleaf is pretty flexible open subs too.\n\nAyr - they will send just generic product classes rather than the specific product, so send as many variations of the product as possible. Once the order is in Leaftrade we have to let them know how many units of something we had. We need to jot down what is missing and how many units we are actually sending to each location. \n\nAyr requirements below:",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "GENERAL"
+      ],
+      "topics": [
+        "PRICING"
+      ],
+      "element_count": 9,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 1079,
+      "word_count": 193
+    }
+  },
+  {
+    "chunk_id": 65,
+    "text": "Relaxed re. Subs - about 70% of clients\n\nZenleaf is pretty flexible open subs too.\n\nManually punch DGF Production location Internal orders on Friday, search by LOT number.\n\nTomorrow orders are good to be processed after noon PST.\n\nNV regular orders\n\nNEVADA REGULAR ORDERS\n\nLeaf Trade Order Placing\n\nThe process starts when a Sales rep sends an order to the NV Headquarters email. This is a group email address that contains all HQ contractors working on the GTI Account.\n\nWhen the order comes in, please send a Slack message to #gti-salesops slack channel if you are taking responsibility for the order submission.\n\nThere are a couple of ways the reps send orders:\n\nMenu in excel format where the retailer has marked which products they want, how many cases & which TAC %. This is the best way to receive orders because it provides the exact Product Name, exact TAC % and case size as well as the Request Summary.",
+    "images": [
+      {
+        "filename": "image_58.png",
+        "path": "semantic_output/images/image_58.png",
+        "label": "Image 58",
+        "number": 58,
+        "context_text": "",
+        "state": "NV",
+        "section": "GENERAL",
+        "topic": "PRICING"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "GENERAL",
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "PRICING"
+      ],
+      "element_count": 12,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 913,
+      "word_count": 159
+    }
+  },
+  {
+    "chunk_id": 66,
+    "text": "There are a couple of ways the reps send orders:\n\nImage 1. Email containing the menu order form\nNOTE: always check the time of the order with the hold off on order entry especially for NV as we have times that we can place WS (wholesales) orders.\n\nImage 2. Order format in order enetry form\n\nIn email order - Excel table or just a list.This way of receiving orders can be a little bit more complicated because the buyers do not name the products correctly a lot of the time, which results in a bit more time spent searching for the product in Leaf Trade.In this case for NV, the retailers usually ask for different strains from the same product. \nI.e (125 units of 3.5g Flower Rythm) this means we have to spread the 125 on different strains of the 3.5g Rythm flower.\n\nImage 4. Example of an In email order\n\n2. Go to Leaf Trade, Sales—> Account —> GTI NV —-> Orders\n\n3. Click New order",
+    "images": [
+      {
+        "filename": "image_59.png",
+        "path": "semantic_output/images/image_59.png",
+        "label": "Image 59",
+        "number": 59,
+        "context_text": "",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "CASE_SIZE"
+      },
+      {
+        "filename": "image_60.png",
+        "path": "semantic_output/images/image_60.png",
+        "label": "Image 60",
+        "number": 60,
+        "context_text": "",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_61.png",
+        "path": "semantic_output/images/image_61.png",
+        "label": "Image 61: Image 4. Example of an In email order",
+        "number": 61,
+        "context_text": "Image 4. Example of an In email order",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_62.png",
+        "path": "semantic_output/images/image_62.png",
+        "label": "Image 62: 2. Go to Leaf Trade, Sales—> Account —> GTI NV",
+        "number": 62,
+        "context_text": "2. Go to Leaf Trade, Sales—> Account —> GTI NV —-> Orders\n\n3. Click New order",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_63.png",
+        "path": "semantic_output/images/image_63.png",
+        "label": "Image 63: 2. Go to Leaf Trade, Sales—> Account —> GTI NV",
+        "number": 63,
+        "context_text": "2. Go to Leaf Trade, Sales—> Account —> GTI NV —-> Orders\n\n3. Click New order",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 8,
+      "has_images": true,
+      "image_count": 5,
+      "char_count": 885,
+      "word_count": 167
+    }
+  },
+  {
+    "chunk_id": 67,
+    "text": "Image 4. Example of an In email order\n\n2. Go to Leaf Trade, Sales—> Account —> GTI NV —-> Orders\n\n3. Click New order\n\n4. Choose a Retailer from the Dropdown menu, the rep will indicate the Store name, location and in most cases if we are sending the order to their Recreational License or Medical License (if they have both) and click Create.\nNOTE: for NV, we have 3 different stock locations - CULT, PROD and CBX. Most of the time CULT has all flowers and some prerolls. PROD is for prerolls and some vapes. CBX is for vapes, edibles, tinctures and lotions.\n\nImage 5. Retailer Dropdown in Leaf Trade\n\nImage 6. Stock location drop down in LT.\n\n5. Copy & Paste the batch number into the batch or pull field as for NV we search for specific batches instead of names.\n\nImage 7. Batch or Pull number search field.\n\nImage 8. Batch or Pull number in the order menu.",
+    "images": [
+      {
+        "filename": "image_61.png",
+        "path": "semantic_output/images/image_61.png",
+        "label": "Image 61: Image 4. Example of an In email order",
+        "number": 61,
+        "context_text": "Image 4. Example of an In email order",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_62.png",
+        "path": "semantic_output/images/image_62.png",
+        "label": "Image 62: 2. Go to Leaf Trade, Sales—> Account —> GTI NV",
+        "number": 62,
+        "context_text": "2. Go to Leaf Trade, Sales—> Account —> GTI NV —-> Orders\n\n3. Click New order",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_63.png",
+        "path": "semantic_output/images/image_63.png",
+        "label": "Image 63: 2. Go to Leaf Trade, Sales—> Account —> GTI NV",
+        "number": 63,
+        "context_text": "2. Go to Leaf Trade, Sales—> Account —> GTI NV —-> Orders\n\n3. Click New order",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_64.png",
+        "path": "semantic_output/images/image_64.png",
+        "label": "Image 64",
+        "number": 64,
+        "context_text": "",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_65.png",
+        "path": "semantic_output/images/image_65.png",
+        "label": "Image 65",
+        "number": 65,
+        "context_text": "",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_66.png",
+        "path": "semantic_output/images/image_66.png",
+        "label": "Image 66",
+        "number": 66,
+        "context_text": "",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_67.png",
+        "path": "semantic_output/images/image_67.png",
+        "label": "Image 67",
+        "number": 67,
+        "context_text": "",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "NOTES"
+      ],
+      "element_count": 12,
+      "has_images": true,
+      "image_count": 7,
+      "char_count": 859,
+      "word_count": 161
+    }
+  },
+  {
+    "chunk_id": 68,
+    "text": "Image 7. Batch or Pull number search field.\n\nImage 8. Batch or Pull number in the order menu.\n\nThere are instances where a specific batch is OOS so you would have to delete the batch number from the search field and search by the item name.\n\nWhen you search by item name, some items usually don’t come up in LeafTrade under the name that is listed in the Menu Order Form and that is because the name does not match what is the item under in the system. In this case, the &Shine items doesn’t show for NY as they use andShine name instead of the &Shine. \nSo you would need to adjust that name in the search bar so it comes up.\n\nImage 7. Product name Search Bar\n\nNote: If some of the requested products are not available (either completely unavailable or the requested THC % is not available) leave a note with how many units they requested next to the name of the item and how much we have left in stock if any. We can offer SUBs as long as they meet the following criteria: Same brand (if Rythm has to be Rythm), same species, same or similar THC %.",
+    "images": [
+      {
+        "filename": "image_67.png",
+        "path": "semantic_output/images/image_67.png",
+        "label": "Image 67",
+        "number": 67,
+        "context_text": "",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_68.png",
+        "path": "semantic_output/images/image_68.png",
+        "label": "Image 68",
+        "number": 68,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_69.png",
+        "path": "semantic_output/images/image_69.png",
+        "label": "Image 69",
+        "number": 69,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NV",
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "NOTES"
+      ],
+      "element_count": 8,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 1049,
+      "word_count": 203
+    }
+  },
+  {
+    "chunk_id": 69,
+    "text": "Image 7. Product name Search Bar\n\nWe can always adjust on the items if the rep asks us to remove or change the subs so don’t be afraid about the SUBs you choose.\n\n6. Keep in mind that each product listed represents 1 Case so if you are supposed to add 2 cases of the same product you will have to type in 2 in the Quantity Section if the name contains something that indicates the case size: (a case of 25) this will add 2 of the same products to the order. However, if the retailer wants 30 and the case size is 20, you can add 1 of the 20, and then you will see another item name but without the case size - those are loose items - you can add 10 of the loose ones to match what the retailer requested.\n\nImage 8. Adding products to the order\n\n7. Once the order is saved, you will end up on the Order Details Screen. In the Order Summary section, click View Draft - this will open the Draft Invoice.\nImage 9. Order Summary Screen",
+    "images": [
+      {
+        "filename": "image_68.png",
+        "path": "semantic_output/images/image_68.png",
+        "label": "Image 68",
+        "number": 68,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_69.png",
+        "path": "semantic_output/images/image_69.png",
+        "label": "Image 69",
+        "number": 69,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_70.png",
+        "path": "semantic_output/images/image_70.png",
+        "label": "Image 70",
+        "number": 70,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "CASE_SIZE"
+      },
+      {
+        "filename": "image_71.png",
+        "path": "semantic_output/images/image_71.png",
+        "label": "Image 71: Image 9. Order Summary Screen",
+        "number": 71,
+        "context_text": "7. Once the order is saved, you will end up on the Order Details Screen. In the Order Summary section, click View Draft - this will open the Draft Invoice.\nImage 9. Order Summary Screen",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 4,
+      "char_count": 930,
+      "word_count": 187
+    }
+  },
+  {
+    "chunk_id": 70,
+    "text": "7. Once the order is saved, you will end up on the Order Details Screen. In the Order Summary section, click View Draft - this will open the Draft Invoice.\nImage 9. Order Summary Screen\n\n9. Click on Download PDF - this will open a Print Screen, make sure you pick the Save as PDF option in the Destination, Click Save.\n\nImage 10. Draft Invoice Screen - Download PDF\n\n10. Add the store name as the extension of the Invoice number along with the stock location -. Save the Draft invoice at a destination on your computer of your choosing.\n\nI.e: Invoice #870675 Silver State Relief - Sparks CULT 1.8.25\n\nImage 11. Draft Invoice naming convention\n\n11. Go back to the email containing the order and REPLY ALL to the rep with the below text and the draft invoice attachment. \n“Hi {NAME},\n\nOrder submitted in Revised Status, draft invoice attached.",
+    "images": [
+      {
+        "filename": "image_71.png",
+        "path": "semantic_output/images/image_71.png",
+        "label": "Image 71: Image 9. Order Summary Screen",
+        "number": 71,
+        "context_text": "7. Once the order is saved, you will end up on the Order Details Screen. In the Order Summary section, click View Draft - this will open the Draft Invoice.\nImage 9. Order Summary Screen",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      },
+      {
+        "filename": "image_72.png",
+        "path": "semantic_output/images/image_72.png",
+        "label": "Image 72: Image 10. Draft Invoice Screen - Download PDF",
+        "number": 72,
+        "context_text": "Image 10. Draft Invoice Screen - Download PDF\n\n10. Add the store name as the extension of the Invoice number along with the stock location -. Save the Draft invoice at a destination on your computer o",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      },
+      {
+        "filename": "image_73.png",
+        "path": "semantic_output/images/image_73.png",
+        "label": "Image 73",
+        "number": 73,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES"
+      ],
+      "element_count": 8,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 841,
+      "word_count": 150
+    }
+  },
+  {
+    "chunk_id": 71,
+    "text": "Image 11. Draft Invoice naming convention\n\nOrder submitted in Revised Status, draft invoice attached.\n\nPlease let us know if this is good to be approved.\n\nThanks,\n\n{Your Name}”\n\nBatch split: We can make a batch split if that is the only option to fulfill the request, however, we need to make sure to follow FIFO and always take the oldest batch. Always make a note about it.\n\nAlways type out these changes in the email back to the rep, in the following format:\n\nImage 12. SUB Format\n\nNV Lingo\n\nImage 13. Lingo\nNV RISE Batteries:\n\nLink for uploading Rise sheet - HQ Leaftrade Ordering - Order Template - All Documents\n\nLink to file for batch requests - https://docs.google.com/document/d/1lQ5bwM9eYYMuMk0Oa3XV16rthj_ARd0va2zLhlFXRRg/edit?tab=t.0\n\nNV: Tips & Tricks\n\nAlways use the filter in the order sheet regarding stock locations and units to get a better view of which items are in which stock location:",
+    "images": [
+      {
+        "filename": "image_74.png",
+        "path": "semantic_output/images/image_74.png",
+        "label": "Image 74",
+        "number": 74,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_75.png",
+        "path": "semantic_output/images/image_75.png",
+        "label": "Image 75",
+        "number": 75,
+        "context_text": "",
+        "state": "NV",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_76.png",
+        "path": "semantic_output/images/image_76.png",
+        "label": "Image 76",
+        "number": 76,
+        "context_text": "",
+        "state": "NV",
+        "section": "RISE",
+        "topic": "BATTERIES"
+      },
+      {
+        "filename": "image_77.png",
+        "path": "semantic_output/images/image_77.png",
+        "label": "Image 77: Always use the filter in the order sheet",
+        "number": 77,
+        "context_text": "Always use the filter in the order sheet regarding stock locations and units to get a better view of which items are in which stock location:",
+        "state": "NV",
+        "section": "RISE",
+        "topic": "BATTERIES"
+      },
+      {
+        "filename": "image_78.png",
+        "path": "semantic_output/images/image_78.png",
+        "label": "Image 78: Always use the filter in the order sheet",
+        "number": 78,
+        "context_text": "Always use the filter in the order sheet regarding stock locations and units to get a better view of which items are in which stock location:",
+        "state": "NV",
+        "section": "RISE",
+        "topic": "BATTERIES"
+      },
+      {
+        "filename": "image_79.png",
+        "path": "semantic_output/images/image_79.png",
+        "label": "Image 79: Always use the filter in the order sheet",
+        "number": 79,
+        "context_text": "Always use the filter in the order sheet regarding stock locations and units to get a better view of which items are in which stock location:",
+        "state": "NV",
+        "section": "RISE",
+        "topic": "BATTERIES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NV",
+        "NY"
+      ],
+      "sections": [
+        "RISE",
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "BATTERIES",
+        "NOTES"
+      ],
+      "element_count": 17,
+      "has_images": true,
+      "image_count": 6,
+      "char_count": 907,
+      "word_count": 148
+    }
+  },
+  {
+    "chunk_id": 72,
+    "text": "Always use the filter in the order sheet regarding stock locations and units to get a better view of which items are in which stock location:\n\nNV RISE\n\nNEVADA RISE ORDERS\n\nINVOICES: Separate orders for Batteries!\n\nWe receive rise orders on Thursdays via email.\n\nSTOCK LOCATIONS: Stores and products should be divided by stock location - CULT, CBX, and PROD. Items that belong to one stock location will not show up if you try searching for them in the other. For regular orders, we can pull this info from “Menu - Wholesale V2”, however for rise, Ernesto is usually preparing the sheet - process: https://vimeo.com/1086865872/18a3f5aa7c?utm_source=email&utm_medium=vimeo-email&utm_campaign=44349",
+    "images": [
+      {
+        "filename": "image_77.png",
+        "path": "semantic_output/images/image_77.png",
+        "label": "Image 77: Always use the filter in the order sheet",
+        "number": 77,
+        "context_text": "Always use the filter in the order sheet regarding stock locations and units to get a better view of which items are in which stock location:",
+        "state": "NV",
+        "section": "RISE",
+        "topic": "BATTERIES"
+      },
+      {
+        "filename": "image_78.png",
+        "path": "semantic_output/images/image_78.png",
+        "label": "Image 78: Always use the filter in the order sheet",
+        "number": 78,
+        "context_text": "Always use the filter in the order sheet regarding stock locations and units to get a better view of which items are in which stock location:",
+        "state": "NV",
+        "section": "RISE",
+        "topic": "BATTERIES"
+      },
+      {
+        "filename": "image_79.png",
+        "path": "semantic_output/images/image_79.png",
+        "label": "Image 79: Always use the filter in the order sheet",
+        "number": 79,
+        "context_text": "Always use the filter in the order sheet regarding stock locations and units to get a better view of which items are in which stock location:",
+        "state": "NV",
+        "section": "RISE",
+        "topic": "BATTERIES"
+      },
+      {
+        "filename": "image_80.png",
+        "path": "semantic_output/images/image_80.png",
+        "label": "Image 80",
+        "number": 80,
+        "context_text": "",
+        "state": "NV",
+        "section": "RISE",
+        "topic": "BATTERIES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "INVOICES",
+        "BATTERIES"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 4,
+      "char_count": 695,
+      "word_count": 105
+    }
+  },
+  {
+    "chunk_id": 73,
+    "text": "INVOICES: Separate orders for Batteries!\n\nWe receive rise orders on Thursdays via email.\n\nBATCH: We always use the batch provided in the menu. If it is OOS, we can sub the batch following FIFO. If the item is totally OOS, we make a note (We do not substitute with different flavours of the same item).\n\nPRICING: We follow LT pricing. There is no need to add notes if there’s a price discrepancy with the menu\n\nCASE SIZE: We always prioritize the largest available case size, starting with 50. If that's not available, we use 25, and if neither is available, we can use loose units.\n\n(e.g., for a request of 128 units, we would add 2 cases of 50, 1 case of 25, and 3 loose units)\n\nREQUESTED BATCH SIZE NOT AVAILABLE: If we don’t have loose units available to fulfill a request (e.g., they request 11 units but we only have cases), we need to add a request to open the batch in the shared file link (The file includes a note format example).",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 7,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 939,
+      "word_count": 175
+    }
+  },
+  {
+    "chunk_id": 74,
+    "text": "(e.g., for a request of 128 units, we would add 2 cases of 50, 1 case of 25, and 3 loose units)\n\nOnce the file is populated, we need to upload it to the drive so Valerie can create the batches - HQ Leaftrade Ordering - Order Template - All Documents (this is the case, only if we have many requests. If we have only 2,3 we can message her via teams)\n\nWe don't need to save the PDF invoices\n\nFORMAT FOR NOTES (please put Not available notes on top)\n\nNo available item: 0/30 3.5g Afternoon Delight #4 (Hybrid) Rythm Flower\n\nLess available item: 30/60 Afternoon Delight #4 (Hybrid) Rythm Flower\n\nBatch SUB: Blue Dream Cartridge (NCD) 500mg - andShine (Hybrid), batch 0411 7409 2531 6188 not available sub with 7221 1359 3488 3442\n\nNV account details\n\nNEVADA ACCOUNTS\n\nRise Cookies - Should be placed under “Cookies on the strip - Las Vegas”",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NV"
+      ],
+      "sections": [
+        "RISE"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "BATCH_SUB",
+        "LESS_AVAILABLE",
+        "INVOICES",
+        "NOTES"
+      ],
+      "element_count": 10,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 837,
+      "word_count": 153
+    }
+  },
+  {
+    "chunk_id": 75,
+    "text": "NV account details\n\nNEVADA ACCOUNTS\n\nRise Cookies - Should be placed under “Cookies on the strip - Las Vegas”\n\nGTI MA\n\nLinks to calls and meeting recordings:\n\nOrder Entry process:\n\nhttps://app.avoma.com/meetings/5b1d1fa6-9541-4ab1-806c-762e60ce318b\n\nhttps://app.avoma.com/meetings/88d7c085-9606-4501-94a9-616151233b51\n\nSample order entry process:\n\nhttps://app.avoma.com/meetings/ff3cbac5-b92b-4828-9b22-9f33b5777609\n\nGTI MA Regular orders\n\nMASSACHUSETTS REGULAR ORDERS\n\nThe process starts when a Sales rep sends an order to the MA Headquarters email. This is a group email address that contains all HQ contractors working on the GTI Account.\n\nWhen the order comes in, please send a Slack message to #gti-salesops slack channel if you are taking responsibility for the order submission.\n\nThere are a couple of ways the reps send orders:",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NV",
+        "MA"
+      ],
+      "sections": [
+        "RISE",
+        "REGULAR"
+      ],
+      "topics": [
+        "BATCH_SUB",
+        "SAMPLES"
+      ],
+      "element_count": 14,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 835,
+      "word_count": 108
+    }
+  },
+  {
+    "chunk_id": 76,
+    "text": "There are a couple of ways the reps send orders:\n\nMenu in excel format (divided by MIPs & Flower) where the retailer has marked which products they want, how many cases & which TAC %. This is the best way to receive orders because it provides the exact Product Name, exact TAC % and case size as well as the Request Summary.\n\nImage 1. Email containing the menu order form\n\nImage 2. Order format in menu order form\n\nImage 3. Order request summary\n\nIn email order - Excel table or just a list.This way of receiving orders can be a little bit more complicated because the buyers do not name the products correctly a lot of the time, which results in a bit more time spent searching for the product in Leaf Trade.\n\nImage 4. Example of an In email order\n\n2. Go to Leaf Trade, Sales—> Account —-> GTI MA —->Orders\n\n3. Click New order",
+    "images": [
+      {
+        "filename": "image_81.png",
+        "path": "semantic_output/images/image_81.png",
+        "label": "Image 81",
+        "number": 81,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "CASE_SIZE"
+      },
+      {
+        "filename": "image_82.png",
+        "path": "semantic_output/images/image_82.png",
+        "label": "Image 82",
+        "number": 82,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "CASE_SIZE"
+      },
+      {
+        "filename": "image_83.png",
+        "path": "semantic_output/images/image_83.png",
+        "label": "Image 83",
+        "number": 83,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "CASE_SIZE"
+      },
+      {
+        "filename": "image_84.png",
+        "path": "semantic_output/images/image_84.png",
+        "label": "Image 84",
+        "number": 84,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "CASE_SIZE"
+      },
+      {
+        "filename": "image_85.png",
+        "path": "semantic_output/images/image_85.png",
+        "label": "Image 85: 2. Go to Leaf Trade, Sales—> Account —-> GTI MA",
+        "number": 85,
+        "context_text": "2. Go to Leaf Trade, Sales—> Account —-> GTI MA —->Orders",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_86.png",
+        "path": "semantic_output/images/image_86.png",
+        "label": "Image 86: 3. Click New order",
+        "number": 86,
+        "context_text": "3. Click New order",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "CASE_SIZE",
+        "NOTES",
+        "SAMPLES"
+      ],
+      "element_count": 13,
+      "has_images": true,
+      "image_count": 6,
+      "char_count": 827,
+      "word_count": 156
+    }
+  },
+  {
+    "chunk_id": 77,
+    "text": "Image 4. Example of an In email order\n\n2. Go to Leaf Trade, Sales—> Account —-> GTI MA —->Orders\n\n3. Click New order\n\n4. Choose a Retailer from the Dropdown menu, the rep will indicate the Store name, location and in most cases if we are sending the order to their Recreational License or Medical License (if they have both) and click Create.\n\nImage 5. Retailer Dropdown in Leaf Trade\n\n5. Copy & Paste or type out the product name in the Search bar. If the product you’re adding to the order is a MIP, make sure the LAB RESULT D is filtered so the arrow is pointing UP (Fifo principle is applied here).\n\nImage 6. Product Search Bar\n\nNote: If some of the requested products are not available (either completely unavailable or the requested THC % is not available) add substitutions to the order:\n\nL’Orange 3.5g flower (1 case requested) not available, add 1 case of substitution SATIVA (same strain as requested) with a similar THC%",
+    "images": [
+      {
+        "filename": "image_85.png",
+        "path": "semantic_output/images/image_85.png",
+        "label": "Image 85: 2. Go to Leaf Trade, Sales—> Account —-> GTI MA",
+        "number": 85,
+        "context_text": "2. Go to Leaf Trade, Sales—> Account —-> GTI MA —->Orders",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_86.png",
+        "path": "semantic_output/images/image_86.png",
+        "label": "Image 86: 3. Click New order",
+        "number": 86,
+        "context_text": "3. Click New order",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_87.png",
+        "path": "semantic_output/images/image_87.png",
+        "label": "Image 87",
+        "number": 87,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_88.png",
+        "path": "semantic_output/images/image_88.png",
+        "label": "Image 88",
+        "number": 88,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "BATCH_SUB"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "BATCH_SUB",
+        "NOTES"
+      ],
+      "element_count": 11,
+      "has_images": true,
+      "image_count": 4,
+      "char_count": 931,
+      "word_count": 167
+    }
+  },
+  {
+    "chunk_id": 78,
+    "text": "L’Orange 3.5g flower (1 case requested) not available, add 1 case of substitution SATIVA (same strain as requested) with a similar THC%\n\nL’Orange 3.5g flower 38.2% THC (1 case requested) not available, add 1 case of substitution, same product, next highest THC% available\n\nAlways type out these changes in the email back to the rep, in the following format:\n\nImage 7. SUB Format\n\n6. Keep in mind that each product listed represents 1 Case (case size is noted in the product name as well as in the Inventory Row), so if you are supposed to add 2 cases of the same product you will have to type in 1 in the Quantity Section on two product listings, this will add 2 of the same products to the order (each its own line item).\n\nImage 8. Adding products to the order\n\nImage 9. Multiple cases of the same product added to the order",
+    "images": [
+      {
+        "filename": "image_89.png",
+        "path": "semantic_output/images/image_89.png",
+        "label": "Image 89",
+        "number": 89,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "BATCH_SUB"
+      },
+      {
+        "filename": "image_90.png",
+        "path": "semantic_output/images/image_90.png",
+        "label": "Image 90",
+        "number": 90,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_91.png",
+        "path": "semantic_output/images/image_91.png",
+        "label": "Image 91",
+        "number": 91,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "BATCH_SUB",
+        "NOTES"
+      ],
+      "element_count": 10,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 825,
+      "word_count": 152
+    }
+  },
+  {
+    "chunk_id": 79,
+    "text": "Image 8. Adding products to the order\n\nImage 9. Multiple cases of the same product added to the order\n\n7. Once all the products are added, make sure you check the Pricing against the Menu order order form or the latest Menu if the order was in mail, adjust the pricing if needed and click Save.\n\nNote: Sometimes the promo pricing is not reflected in Leaf Trade so it has to be manually adjusted in the order.\n\n8. Once the order is saved, you will end up on the Order Details Screen. In the Order Summary section, click View Draft - this will open the Draft Invoice.\n\nImage 10. Order Summary Screen\n\n9. Click on Download PDF - this will open a Print Screen, make sure you pick the Save as PDF option in the Destination, Click Save.\n\nImage 11. Draft Invoice Screen - Download PDF\n\n10. Add the store name as the extension of the Invoice number. Save the Draft invoice at a destination on your computer of your choosing.",
+    "images": [
+      {
+        "filename": "image_91.png",
+        "path": "semantic_output/images/image_91.png",
+        "label": "Image 91",
+        "number": 91,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      },
+      {
+        "filename": "image_92.png",
+        "path": "semantic_output/images/image_92.png",
+        "label": "Image 92",
+        "number": 92,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      },
+      {
+        "filename": "image_93.png",
+        "path": "semantic_output/images/image_93.png",
+        "label": "Image 93",
+        "number": 93,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 12,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 916,
+      "word_count": 171
+    }
+  },
+  {
+    "chunk_id": 80,
+    "text": "10. Add the store name as the extension of the Invoice number. Save the Draft invoice at a destination on your computer of your choosing.\n\nImage 12. Draft Invoice naming convention\n\n11. Go back to the email containing the order and reply to the rep with the below text and the draft invoice attachment. \n“Hi {NAME},\n\nOrder submitted in Revised Status, draft invoice attached.\n\nPlease let us know if this is good to be approved.\n\nThanks,\n\n{Your Name}”\n\n12. If the rep says the order is good to be approved, go back to Leaf Trade, open the order and update the order status to Approve. A confirmation pop-up will appear, confirming the Approval.\n\nImage 13. Order Status update to Approved\n\n13. If the rep requested a specific delivery date, you can note that in the Internal Order Notes\n\nImage 14. Delivery date notes - Internal Order Notes",
+    "images": [
+      {
+        "filename": "image_93.png",
+        "path": "semantic_output/images/image_93.png",
+        "label": "Image 93",
+        "number": 93,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      },
+      {
+        "filename": "image_94.png",
+        "path": "semantic_output/images/image_94.png",
+        "label": "Image 94",
+        "number": 94,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "INVOICES"
+      },
+      {
+        "filename": "image_95.png",
+        "path": "semantic_output/images/image_95.png",
+        "label": "Image 95",
+        "number": 95,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_96.png",
+        "path": "semantic_output/images/image_96.png",
+        "label": "Image 96",
+        "number": 96,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "NOTES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 15,
+      "has_images": true,
+      "image_count": 4,
+      "char_count": 838,
+      "word_count": 147
+    }
+  },
+  {
+    "chunk_id": 81,
+    "text": "13. If the rep requested a specific delivery date, you can note that in the Internal Order Notes\n\nImage 14. Delivery date notes - Internal Order Notes\n\n14. When saving the Draft invoice use the following format to name the file. Especially for Mark’s orders:\n\nM-D-Y [Account Name] Draft Invoice #XXXXXX\nExample: 4.9.24 Bask MED Draft Invoice #634595\n\nGTI MA Onboarding Notes\n\nVocabulary:\n\nOOS - Out Of Stock\n\nMIP - Marijuana Infused Product\n\nFIFO - First In First Out\n\nRSO - Rick Simpson Oil (full extract cannabis oil meant to be taken orally or applied topically)\n\nOrder Placing Process Specifics:\n\nDeadline to place orders (to be delivered in 48hrs) is 2pm ET.\n\nSample orders should always be created as a standalone order.\n\nAll notes (requested delivery date that is outside of the schedule, sample notes etc) should be added to the Invoice Column",
+    "images": [
+      {
+        "filename": "image_96.png",
+        "path": "semantic_output/images/image_96.png",
+        "label": "Image 96",
+        "number": 96,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "SAMPLES",
+        "BATCH_SUB",
+        "NOTES"
+      ],
+      "element_count": 15,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 851,
+      "word_count": 143
+    }
+  },
+  {
+    "chunk_id": 82,
+    "text": "All notes (requested delivery date that is outside of the schedule, sample notes etc) should be added to the Invoice Column\n\nIf the order is in the Approved Status and the buyer would like to add to it, a new order with the add-ons should be created\n\nWe should never touch the Delivery date column\n\nIf the order is placed after 2pm and they still want the order delivered on schedule, the rep will always notify the packaging/delivery team about that before they send us the order (we should specify the delivery date in the Invoice Notes section)\n\nWhen the order is in the Revised Status, we can edit it as much as it’s needed as the packaging will not start until the order is Approved\n\nIf we do not have inventory available for ordered products, we should let the rep know and offer substitute products (same strain or same product with different thc %)",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 6,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 856,
+      "word_count": 155
+    }
+  },
+  {
+    "chunk_id": 83,
+    "text": "When the order is in the Revised Status, we can edit it as much as it’s needed as the packaging will not start until the order is Approved\n\nAll orders placed should be left in the Revised Status, the rep should be notified that the order is in LeafTrade, draft invoice should be attached and we should wait for either the rep to give us the go-ahead or for them to Approve the order\n\nWhen submitting an order with MIP products, always filter the Lab Result Date to ensure FIFO (arrow pointing up)\n\nFlower is the only product we do not Batch filter\n\nOn Hold Accounts:\n\nHeka and Cape Ann are on hold.\n\nHeka - delivery should not be scheduled until they pay the invoice ahead of time (COD)\n\nCape Ann - this account owes them over $10k and if they order, they need to pay double the invoice for the order to be delivered",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 8,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 816,
+      "word_count": 155
+    }
+  },
+  {
+    "chunk_id": 84,
+    "text": "Cape Ann - this account owes them over $10k and if they order, they need to pay double the invoice for the order to be delivered\n\nSpecial Pricing:\n\nZenleaf - special price account - we should input the order and the sales rep or Eric will update the pricing or give us exact pricing per product.\n\nBRANDS\n\nDog Walkers - Prerolls\n\nRythm - Flower, Live Resin Vape/Cartridge, Vape Pens, Concentrates\n\nBeboe - Edibles (gummies, pastilles), Vape Pens\n\nGood Green - Flower\n\nIncredibles - Edibles (chocolate, gummies, sour candy, hard candy)\n\nDoctor Solomon’s - Topicals (lotions, balms, drops, RSO)\n\nINTRO CALLS WITH REPS\n\nMark Wairi - South\n\nKey Accounts:\n\nSpecial Pricing accounts - he will send a list\n\nSome accounts need special care after the order, this doesn’t fall under us\n\nBask Fairhaven - typically send everything to their medical license",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "PRICING",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 16,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 843,
+      "word_count": 140
+    }
+  },
+  {
+    "chunk_id": 85,
+    "text": "Some accounts need special care after the order, this doesn’t fall under us\n\nBask Fairhaven - typically send everything to their medical license\n\nUpTop West Roxbury is on leaftrade as Beacon Compassion\n\nPharmacann = VeriLife\n\nPersonal Working Styles:\n\nUsually gets orders Monday and Tuesday (Tuesday can get quite busy with orders)\n\nFew accounts have a scheduling delivery tool\n\nVeralife - two locations, have to cc someone to organize the delivery\n\nText or phone call if something is urgent\n\nHe will let us know when an order can be approved immediately\n\nIf the sub has a very low difference in thc percentage he will let the buyer know, put in the order and just let the client know about the change\n\nPreferred way of submitting orders:\n\nOrder form in most cases\n\nSome accounts send a table or type out what they want to order",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "PRICING",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 14,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 828,
+      "word_count": 143
+    }
+  },
+  {
+    "chunk_id": 86,
+    "text": "Preferred way of submitting orders:\n\nOrder form in most cases\n\nSome accounts send a table or type out what they want to order\n\nMark will send a substitute email example - list the product they asked for and list the bus below with needed info (thc % differences etc)\n\nReserve products that have limited quantity (subs) and keep it in the Revised Status until Approved\n\nCertain accounts have preferences regarding sending to specific licenses - medical (Uptop - Beacon Compassion).\n\nHigh Dose edibles to medical, everything else to other rec license\n\nPREFERRED INVOICE NAMING CONVENTION:\n\nM.D.Y [Account Name] Draft Invoice #XXXXXX\n\nJennifer Corsac - Central\n\nKey Accounts:\n\nSpecial Pricing Accounts - she will email\n\nDiam, Camp Fire Cannabis, Local Roots (both locations)\n\nTry Redi. Most orders go to Natick unless they specifically request it for Newton",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "INVOICES",
+        "PRICING",
+        "NOTES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 14,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 854,
+      "word_count": 136
+    }
+  },
+  {
+    "chunk_id": 87,
+    "text": "Diam, Camp Fire Cannabis, Local Roots (both locations)\n\nTry Redi. Most orders go to Natick unless they specifically request it for Newton\n\nPersonal Working Styles:\n\nTuesdays, Thursdays and Fridays are heavy order days\n\nMSO (all medical) - Cura Leaf, Ascend (Bottanist), Resonate (med license),Sunny Side Cresco\n\nPreferred way of submitting orders:\n\nShe is still building her buyer cadence - BoTerra account (completely different way of submitting orders), Temescal - orders that will probably not be sent to us because it’s easier for her to submit for herself - Sky Cannabis, Clear Sky\n\nBrownie Scout is hot right now - reserving this strain for certain accounts will be a must\n\nBrand specific orders usually mostly\n\nKerri Lammers - West\n\nKey Accounts:\n\nBalagan - issue with them, they love high tech (anything that comes in with high thc he wants it), not knowing if new products with high % is coming in is a problem - they want to swap out the products they just ordered to be replaced with higher thc percentage product. Immediate attention, a bit difficult to work with.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "PRICING"
+      ],
+      "element_count": 12,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 1076,
+      "word_count": 180
+    }
+  },
+  {
+    "chunk_id": 88,
+    "text": "Kerri Lammers - West\n\nKey Accounts:\n\nBloom Brothers - will take expiring product\n\nCalix Great Barrington - Donna wife is nice, sweet, Sean needs attention and he needs it now (will follow up a mill times in 15 mins), gets worked up when he can’t reach her, sometimes he snaps\n\nCanna Provisions - do a lot with them, they have special pricing, regardless of specials they will get $10 pens, $13.50 for 1g. Used to a ton of money with them but now barely anything. Account that possibly picks up orders soon (hopefully) - PAY CLOSE ATT, only accept the deliveries on Tuesday\n\nCannabis Connection (Westwille, West Springfield) - different emails for different stores, it gets a little confusing because the emails are similar.\n\nDazed - they order for Holiox sporadically, they opened another store and now they put orders on hold.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "PRICING"
+      ],
+      "element_count": 7,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 827,
+      "word_count": 142
+    }
+  },
+  {
+    "chunk_id": 89,
+    "text": "Dazed - they order for Holiox sporadically, they opened another store and now they put orders on hold.\n\nDreamer & Honey - orders a lot of gummies, also loves high %, any 7g high t he wants pulled immediately, he calls and keeps on the phone a long time.\n\nBarnsworth - nothing delivered that expires in 6 months (add to notes on every order)\n\nEmber - started buying a ton of gummies and fell off the face of the earth - may come back\n\nKika - in Westfield (COD - wait for wire before approving orders), she likes the orders put in immediately.\n\nInsa - buyer is Out of state, buys for all of them at the same time ( a lot of stores), sends all orders in one email, special pricing but she puts pricing in the email. Springfield - for orders above 35k she needs approval, so sometimes she would send two orders to go around that.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 6,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 825,
+      "word_count": 159
+    }
+  },
+  {
+    "chunk_id": 90,
+    "text": "Kika - in Westfield (COD - wait for wire before approving orders), she likes the orders put in immediately.\n\nSilver therapeutics - they order a lot, a good account, love Browny Scout so she would send samples.\n\nCheech & Chongs - trying to open\n\nRed Cardinal - only buys vapes (easy for subs as long as it’s the same strain)\n\nPersonal Working Styles:\n\nMonday, Tuesday heavy order day, Friday can be kind of heavy.\n\nPreferred way of submitting orders:\n\nLicense specific - if they have medical they will say what it’s for.\n\nIf you see HIGH DOSE on the order, send it to med license\n\nIf it’s a thc %, she will do the next highest, notify the rep\n\nDoesn’t like to swap out the whole strain on an order\n\nStores peculiarities:\n\nAscend: They have three locations (Boston, New Bedford and Newton) and their orders all come in one file. One for MIPs and one for Flower. The Boston Store is also called Friend Street.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "SAMPLES",
+        "NOTES"
+      ],
+      "element_count": 13,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 906,
+      "word_count": 165
+    }
+  },
+  {
+    "chunk_id": 91,
+    "text": "Doesn’t like to swap out the whole strain on an order\n\nStores peculiarities:\n\nBeacon Compassion - emails orders under battle-green or Terrasana\n\nGTI MA | Menu Updates SOP (New)\n\nGTI MA Menu Updates SOP\n\nStep 1 - Prepare the Menu for new data\n\nLoom video for this Step - GTI MA | Menu Updates Part 1 - Prepare the Menu for new data\n\nWe receive the data needed for menu updates from Eric Perez (Sales Director MA), he usually sends the report late evening the previous day.\n\nHis email will sometimes include the Menu file as well, in case any formulas were changed. If he sends a Menu file, make sure you use that file for the new menu. If he doesn’t send a new Menu file, use the last menu you sent as your base.\n\nOpen the Menu Excel file\n\nClick the Review Tab in Excel and navigate to Unprotect Sheet, click Unprotect Sheet",
+    "images": [
+      {
+        "filename": "image_97.png",
+        "path": "semantic_output/images/image_97.png",
+        "label": "Image 97",
+        "number": 97,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "DELIVERY_DATE",
+        "SAMPLES"
+      ],
+      "element_count": 12,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 823,
+      "word_count": 155
+    }
+  },
+  {
+    "chunk_id": 92,
+    "text": "Open the Menu Excel file\n\nClick the Review Tab in Excel and navigate to Unprotect Sheet, click Unprotect Sheet\n\nType in the password to unprotect the sheet, the password is always GTIMA (all caps lock)\n\nThe first visible column in the menu is column C, click and drag to unhide column A & B\n\nSelect data from in Column A from row 21 all the way down and delete it by pressing the Delete button on your keyboard\n\nRight click on the MA WHOLESALE MENU TAB and select Unhide\n\nUnhide the LeafTrade Export Tab\n\nNavigate to LeafTrade Export tab\n\nSelect all data from Column B to Column S, all the way down\n\nDelete the data\n\nLeave Column A and Columns U through AF intact\n\nStep 2 - Cleaning up the data\n\nLoom video for this step - GTI MA | Menu Updates Part 2 - Cleaning up the data\n\nWe are only working in the LeafTrade export tab for this step.",
+    "images": [
+      {
+        "filename": "image_98.png",
+        "path": "semantic_output/images/image_98.png",
+        "label": "Image 98",
+        "number": 98,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_99.png",
+        "path": "semantic_output/images/image_99.png",
+        "label": "Image 99",
+        "number": 99,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_100.png",
+        "path": "semantic_output/images/image_100.png",
+        "label": "Image 100",
+        "number": 100,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "DELIVERY_DATE"
+      ],
+      "element_count": 17,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 838,
+      "word_count": 161
+    }
+  },
+  {
+    "chunk_id": 93,
+    "text": "Loom video for this step - GTI MA | Menu Updates Part 2 - Cleaning up the data\n\nWe are only working in the LeafTrade export tab for this step.\n\nOpen the Inventory report from the email Eric sent\n\nCopy all data from Row 2 onwards\n\nNavigate to the LeafTrade Export tab in the Menu file\n\nPaste the Inventory data in Column B, Row 3. Make sure you Paste Values Only. You can either right click on the cell and select Paste Values Only or use your keyboard shortcut to that by clicking on the cell (Column B, Row 3) and pressing Ctrl+Shift+V at the same time.\n\nOnce the data is pasted, click the Filter in Column S and deselect everything except 0 values. This will leave only products that have 0 available inventory.\n\nSelect all Rows with 0 inventory, right click and select Delete Row\n\nNavigate back to the filter in the S column and select all values",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "DELIVERY_DATE"
+      ],
+      "element_count": 9,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 849,
+      "word_count": 159
+    }
+  },
+  {
+    "chunk_id": 94,
+    "text": "Select all Rows with 0 inventory, right click and select Delete Row\n\nNavigate back to the filter in the S column and select all values\n\nThere are a couple of data points we need to fix in the inventory export before updating the menu:\n\nFirst check the data in Column D. There is one product that causes issues because of the naming convention and that is Dogwalkers - Show Dogs - 5pk (2.25g). The naming convention of this product causes and issue in the Dutchie Backend formula fields and it needs to be adjusted by simply deleting the weight of the product so you are left with Dogwalkers - Show Dogs - 5pk\n\nNext thing to check and make sure it is populated for all products is the Brand name in Column I. If the Brand name is blank, make sure you populate it (usually the same brand is either listed above or below so you can just drag the cell to auto populate the blank cell)",
+    "images": [
+      {
+        "filename": "image_101.png",
+        "path": "semantic_output/images/image_101.png",
+        "label": "Image 101",
+        "number": 101,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_102.png",
+        "path": "semantic_output/images/image_102.png",
+        "label": "Image 102",
+        "number": 102,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "DELIVERY_DATE"
+      ],
+      "element_count": 7,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 880,
+      "word_count": 167
+    }
+  },
+  {
+    "chunk_id": 95,
+    "text": "Check the formatting in columns G and H, the formatting is usually off in the last couple of rows of the data - format those cells to date in m/d/yyyy format.\n\nFinally we need to make sure that the Expiration Date is populated for all products in Column P. If the expiration date is blank on some products, you should look at the Lab Result Date field (Column H) and add +1 year to that - so if the Lab Result Date is 9/23/2024 you would add 9/23/2025 to the Expiration Date cell.\n\nFind the row with RYTHM Batteries product and delete it - we do not include Batteries on the Menu.\n\nWhen all the data is adjusted, proceed to the next step.\n\nStep 3 - Updating the menu\n\nLoom video for this step - GTI MA | Menu Updates Part 3 - Updating the menu\n\nThis step covers the actual Retailer facing menu update.\n\nCopy all data from Column A in the LeafTrade Export tab",
+    "images": [
+      {
+        "filename": "image_101.png",
+        "path": "semantic_output/images/image_101.png",
+        "label": "Image 101",
+        "number": 101,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_102.png",
+        "path": "semantic_output/images/image_102.png",
+        "label": "Image 102",
+        "number": 102,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "BATTERIES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 10,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 858,
+      "word_count": 166
+    }
+  },
+  {
+    "chunk_id": 96,
+    "text": "This step covers the actual Retailer facing menu update.\n\nCopy all data from Column A in the LeafTrade Export tab\n\nNavigate to the MA WHOLESALE MENU Tab\n\nPaste the data to Column A, Row 21 in the MA WHOLESALE MENU Tab. Make sure you Paste Values Only. You can either right click on the cell and select Paste Values Only or use your keyboard shortcut to that by clicking on the cell (Column B, Row 3) and pressing Ctrl+Shift+V at the same time.\n\nScroll through the menu to make sure no blank rows were added, if they exist, delete those rows.\n\nClick on any cell in the actual table containing the menu\n\nNavigate to the Data tab in Excel and click Remove Duplicates\n\nIn the Duplicates pop-up deselect everything and only select Product Source.\n\nClick OK - this will merge duplicate products that have the same Batch number to a unified Inventory count for that product",
+    "images": [
+      {
+        "filename": "image_103.png",
+        "path": "semantic_output/images/image_103.png",
+        "label": "Image 103",
+        "number": 103,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_104.png",
+        "path": "semantic_output/images/image_104.png",
+        "label": "Image 104",
+        "number": 104,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "DELIVERY_DATE"
+      ],
+      "element_count": 11,
+      "has_images": true,
+      "image_count": 2,
+      "char_count": 866,
+      "word_count": 156
+    }
+  },
+  {
+    "chunk_id": 97,
+    "text": "Click OK - this will merge duplicate products that have the same Batch number to a unified Inventory count for that product\n\nHighlight Columns A and B, right click on either column and select Hide\n\nNavigate to the Review Tab in Excel and select Protect Sheet\n\nType in the password GTIMA - this time you will be prompted to do it twice. Once during the selection process for Protected cells and Columns and once to confirm. Type the same password in both cases.\n\nNavigate to the LeafTrade Export Tab and repeat this process\n\nRight click on the LeafTrade Tab and select Hide\n\nNavigate to File, Save As and rename the Menu to GTI MENU “today’s date” (GTI MENU 10.16)\n\nSend the Menu via email to their team and MA Headquarters group.\n\nMA: Tips & Tricks\n\nAlways use the pricing assigned on the columns for pricing, avoid using the total pricing.",
+    "images": [
+      {
+        "filename": "image_104.png",
+        "path": "semantic_output/images/image_104.png",
+        "label": "Image 104",
+        "number": 104,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_105.png",
+        "path": "semantic_output/images/image_105.png",
+        "label": "Image 105",
+        "number": 105,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      },
+      {
+        "filename": "image_106.png",
+        "path": "semantic_output/images/image_106.png",
+        "label": "Image 106",
+        "number": 106,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "PRICING",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 13,
+      "has_images": true,
+      "image_count": 3,
+      "char_count": 840,
+      "word_count": 150
+    }
+  },
+  {
+    "chunk_id": 98,
+    "text": "MA: Tips & Tricks\n\nAlways use the pricing assigned on the columns for pricing, avoid using the total pricing.\n\nCheck the potencies for the SUBS.\n\nWe DO NOT sub Gummies and Bars\n\nPay attention to the pricing tiers\n\nWhen sending back notes about SUBs, if we have prerolls and flowers: include the THCA % of each item and which % we SUB with\n\nMED Dose items usually have the word Medical dose on the left-hand side in the menu, but always note:\n\nMED dose can only be gummies and chocolate bars from Incredibles (the brand) and they are always above 300mg; anything that is 300mg and less is NOT MED item.\n\nWe place batteries on the same order as other products.\n\nQuestion:\n\n\"I saw that some items are not in the menu but when I manually search them up in LeafTrade, they appear.\"\n\nAnswer:\n\n\"This is because our menu is from yesterday and they might have added new items to their inventory and when I update the menu tomorrow it will show there\"",
+    "images": [
+      {
+        "filename": "image_106.png",
+        "path": "semantic_output/images/image_106.png",
+        "label": "Image 106",
+        "number": 106,
+        "context_text": "",
+        "state": "MA",
+        "section": "REGULAR",
+        "topic": "DELIVERY_DATE"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "BATTERIES",
+        "PRICING",
+        "NOTES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 14,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 941,
+      "word_count": 173
+    }
+  },
+  {
+    "chunk_id": 99,
+    "text": "\"I saw that some items are not in the menu but when I manually search them up in LeafTrade, they appear.\"\n\nAnswer:\n\nFor MA:\n\nSince we update their menus on Monday, Wednesday and Friday - Tuesday and Thursday are not always 100% accurate in regards to items and stock as most of the stock is either allocated, gone OR they have updated the inventory - so we either don't see certain items or we do see new ones that we don't have on the menu\n\nHandling Late Orders\n\nHandling Late Orders\n\nPolicy:\n\nIf an order is received within 5 minutes before the shift ends and takes approximately 10–15 minutes to finalize, please proceed with processing it before logging off.\n\nIf the order is expected to take 30 minutes or more, it can be held for processing the next business day.\n\nThese situations are handled on a case-by-case basis. Please use your judgment and communicate with the team if unsure.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "BATTERIES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 10,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 890,
+      "word_count": 159
+    }
+  },
+  {
+    "chunk_id": 100,
+    "text": "These situations are handled on a case-by-case basis. Please use your judgment and communicate with the team if unsure.\n\nIf an order is held for the next day, send an email to the client informing them that it will be processed in the morning.\n\nPlease inform the team via Slack about what is pending for tomorrow.\n\nAlso, tag the email with the Follow-Up tag.\n\nEmail Template\n\nHi [Client's Name],\n\nWe are confirming that the order has been received. Due to the time required to process it thoroughly, we’ll be handling it first thing tomorrow morning and will send a confirmation once it’s finalized.\n\nWe appreciate your understanding.\n\nBest regards,\n\n[Your Name]\n\nClosing and opening the day\n\nCLOSING SHIFT DUTIES\n\nORDER COMMUNICATION PROTOCOL\n\nThe person closing the day should post a message in the Teams channel with a summary of the order status.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "DELIVERY_DATE"
+      ],
+      "element_count": 14,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 850,
+      "word_count": 142
+    }
+  },
+  {
+    "chunk_id": 101,
+    "text": "ORDER COMMUNICATION PROTOCOL\n\nThe person closing the day should post a message in the Teams channel with a summary of the order status.\n\nThis should include one of the following:\n\nA list of pending orders for the next day, along with a note that we’ll follow up on them first thing in the morning, or:\n\nA simple message stating: \"Good evening team. There are no pending orders on our end from today\"\n\nWhen listing pending orders, please be specific — include the retailer name and state (e.g., “Sweetspot – NJ”).\n\nPlease continue to respond to order emails using the template message, indicating that we will follow up in the morning.\n\nProcess to check pending orders:\n\nUnassigned inbox in Hiver\n\nAll unresolved inbox in Hiver (all conversations that are not closed should be there—please review to ensure no orders were missed)",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NJ",
+        "MA"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "NOTES",
+        "DELIVERY_DATE"
+      ],
+      "element_count": 10,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 828,
+      "word_count": 140
+    }
+  },
+  {
+    "chunk_id": 102,
+    "text": "All unresolved inbox in Hiver (all conversations that are not closed should be there—please review to ensure no orders were missed)\n\nRelevant Teams channels\n\nAny orders marked with a Follow Up tag\n\nIf there are any pending orders, please advise our team by sending a message in the #GTI-Pending Slack channel. Please use the following notes format:\n\nSweetbuds NJ / Sales Rep: Kate / Channel: Email\n\nNY LIST OF REVISED ORDERS\n\nWe need to send a list of orders in the revised status from LT (we simply open the NY state, filter the orders, and mark the ones that are not approved for more than 48h)\n\nImage - List of orders in revised status not approved for more than 24h\n\nNY LIST OF PENDING ORDERS\n\nIn rare cases, we may have pending orders (e.g., waiting for a response from the sales rep regarding details such as product type, license type, pricing, etc.).",
+    "images": [
+      {
+        "filename": "image_107.png",
+        "path": "semantic_output/images/image_107.png",
+        "label": "Image 107",
+        "number": 107,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NJ",
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "PRICING",
+        "NOTES"
+      ],
+      "element_count": 11,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 858,
+      "word_count": 152
+    }
+  },
+  {
+    "chunk_id": 103,
+    "text": "Image - List of orders in revised status not approved for more than 24h\n\nNY LIST OF PENDING ORDERS\n\nIf we are waiting for a response, please mark the email in Hiver with \"Waiting for client’s reply.\" If we don’t receive a response within 2-3 hours, we can follow up via email. If there is still no response by EOD, teammates who are closing the day and sending the list of revised orders, should include a note about the pending orders in the following format:\n\nStore (retailer) / Sales Rep / Type of Request\n\nImage - email tag “Waiting on Client Reply”\n\nOPENING SHIFT DUTIES\n\nORDER COMMUNICATION PROTOCOL\n\nThe person starting the morning shift should send the message to the teams channel:\n\nIf orders are carried over from the previous evening, post an update such as:",
+    "images": [
+      {
+        "filename": "image_108.png",
+        "path": "semantic_output/images/image_108.png",
+        "label": "Image 108",
+        "number": 108,
+        "context_text": "",
+        "state": "NY",
+        "section": "REGULAR",
+        "topic": "NOTES"
+      }
+    ],
+    "metadata": {
+      "states": [
+        "NY"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 10,
+      "has_images": true,
+      "image_count": 1,
+      "char_count": 769,
+      "word_count": 136
+    }
+  },
+  {
+    "chunk_id": 104,
+    "text": "ORDER COMMUNICATION PROTOCOL\n\nIf orders are carried over from the previous evening, post an update such as:\n\n“We’re working on Sweetspot – NJ and will proceed with new orders following FIFO.\"\n\nIf new orders arrived overnight, post a message like:\n\n“We received 3 new orders overnight: Ascend – IL, Verilife – MD, and A21 – NJ. We're starting with those and will follow up on upcoming orders following FIFO”\n\nIf there are no new orders, you may follow the current practice and post:\n\n“Good morning team, nothing is pending on our end from yesterday.We will process any orders received since in FIFO order.”\n\nWORKING ON FOLLOW-UP ORDERS\n\nIf any orders are in pending status (i.e., the email is marked in Hiver and the info has been shared in Slack), a follow-up should be done in the morning.\n\nFirst, check whether the order has already been placed by the retailer.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "NJ",
+        "NY",
+        "IL"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "BATCH_SUB",
+        "DELIVERY_DATE",
+        "NOTES"
+      ],
+      "element_count": 10,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 863,
+      "word_count": 149
+    }
+  },
+  {
+    "chunk_id": 105,
+    "text": "WORKING ON FOLLOW-UP ORDERS\n\nFirst, check whether the order has already been placed by the retailer.\n\nIf the order has not been placed: Follow up via email or Teams, depending on the previous communication channel.",
+    "images": [],
+    "metadata": {
+      "states": [
+        "IL"
+      ],
+      "sections": [
+        "REGULAR"
+      ],
+      "topics": [
+        "BATCH_SUB"
+      ],
+      "element_count": 3,
+      "has_images": false,
+      "image_count": 0,
+      "char_count": 214,
+      "word_count": 35
+    }
+  }
+]

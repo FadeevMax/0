@@ -108,6 +108,34 @@ def upload_file():
     except Exception as e:
         return jsonify({'error': f'Error processing document: {str(e)}'}), 500
 
+@app.route('/api/load-default-chunks', methods=['POST'])
+def load_default_chunks():
+    """Load default chunks.json file from the app"""
+    try:
+        chunks_path = os.path.join(os.path.dirname(__file__), 'output', 'chunks.json')
+        
+        if os.path.exists(chunks_path):
+            with open(chunks_path, 'r', encoding='utf-8') as f:
+                chunks = json.load(f)
+            
+            if chunks and isinstance(chunks, list):
+                session['chunks'] = chunks
+                session['processing_complete'] = True
+                session['vector_db_ready'] = True
+                
+                return jsonify({
+                    'success': True,
+                    'message': f'Loaded {len(chunks)} default chunks',
+                    'chunks_count': len(chunks)
+                })
+            else:
+                return jsonify({'error': 'Invalid chunks format'}), 500
+        else:
+            return jsonify({'error': 'Default chunks file not found'}), 404
+            
+    except Exception as e:
+        return jsonify({'error': f'Error loading default chunks: {str(e)}'}), 500
+
 @app.route('/api/load-from-github', methods=['POST'])
 def load_from_github():
     """Load chunks from GitHub JSON file"""
@@ -118,7 +146,7 @@ def load_from_github():
         
         data = request.get_json()
         repo_url = data.get('repo_url')
-        file_path = data.get('file_path', 'output/hybrid_chunks.json')
+        file_path = data.get('file_path', 'output/chunks.json')
         
         if not repo_url:
             return jsonify({'error': 'Repository URL required'}), 400
