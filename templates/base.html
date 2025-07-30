@@ -202,6 +202,7 @@
             fetch('/api/status')
                 .then(response => response.json())
                 .then(data => {
+                    console.log('Status data:', data); // Debug logging
                     const statusDiv = document.getElementById('status-display');
                     if (data.processing_complete) {
                         statusDiv.innerHTML = `
@@ -212,7 +213,19 @@
                                 <small>✅ Search ready</small>
                             </div>
                         `;
+                    } else {
+                        statusDiv.innerHTML = `
+                            <div class="status-box warning">
+                                <small>⏳ No document processed yet</small>
+                            </div>
+                            <div class="status-box info">
+                                <small>ℹ️ Upload document to enable search</small>
+                            </div>
+                        `;
                     }
+                })
+                .catch(error => {
+                    console.error('Error updating status:', error);
                 });
         }
         

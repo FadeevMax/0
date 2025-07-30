@@ -251,9 +251,12 @@ document.getElementById('load-default-btn').addEventListener('click', async func
         const data = await response.json();
         
         if (data.success) {
+            console.log('Default chunks loading successful:', data); // Debug logging
             showAlert(data.message, 'success');
-            updateStatus();
-            enableChatAndChunks();
+            setTimeout(() => {
+                updateStatus();
+                enableChatAndChunks();
+            }, 500); // Small delay to ensure session is updated
         } else {
             showAlert(data.error, 'danger');
         }
@@ -287,9 +290,12 @@ document.getElementById('github-form').addEventListener('submit', async function
         const data = await response.json();
         
         if (data.success) {
+            console.log('GitHub loading successful:', data); // Debug logging
             showAlert(data.message, 'success');
-            updateStatus();
-            enableChatAndChunks();
+            setTimeout(() => {
+                updateStatus();
+                enableChatAndChunks();
+            }, 500); // Small delay to ensure session is updated
         } else {
             showAlert(data.error, 'danger');
         }
@@ -502,16 +508,29 @@ function changePage(page) {
 }
 
 function enableChatAndChunks() {
+    console.log('Enabling chat and chunks...'); // Debug logging
+    
     // Enable chat
-    document.getElementById('chat-disabled').style.display = 'none';
-    document.getElementById('chat-enabled').style.display = 'block';
-    document.getElementById('chat-input').disabled = false;
-    document.getElementById('send-btn').disabled = false;
+    const chatDisabled = document.getElementById('chat-disabled');
+    const chatEnabled = document.getElementById('chat-enabled');
+    const chatInput = document.getElementById('chat-input');
+    const sendBtn = document.getElementById('send-btn');
+    
+    if (chatDisabled) chatDisabled.style.display = 'none';
+    if (chatEnabled) chatEnabled.style.display = 'block';
+    if (chatInput) chatInput.disabled = false;
+    if (sendBtn) sendBtn.disabled = false;
     
     // Enable chunks
-    document.getElementById('chunks-disabled').style.display = 'none';
-    document.getElementById('chunks-enabled').style.display = 'block';
+    const chunksDisabled = document.getElementById('chunks-disabled');
+    const chunksEnabled = document.getElementById('chunks-enabled');
+    
+    if (chunksDisabled) chunksDisabled.style.display = 'none';
+    if (chunksEnabled) chunksEnabled.style.display = 'block';
+    
     loadChunks();
+    
+    console.log('Chat and chunks enabled successfully'); // Debug logging
 }
 
 // Clear chat functionality
