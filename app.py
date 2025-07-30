@@ -17,13 +17,20 @@ app = Flask(__name__)
 app.secret_key = os.environ.get('SECRET_KEY', 'your-secret-key-change-in-production')
 
 # Configuration
-UPLOAD_FOLDER = 'uploads'
-TEMP_FOLDER = 'temp'
 ALLOWED_EXTENSIONS = {'docx'}
 
-# Create directories
-os.makedirs(UPLOAD_FOLDER, exist_ok=True)
-os.makedirs(TEMP_FOLDER, exist_ok=True)
+# Use /tmp directory for Vercel serverless functions
+UPLOAD_FOLDER = '/tmp/uploads'
+TEMP_FOLDER = '/tmp/temp'
+
+# Create directories in /tmp (writable in Vercel)
+try:
+    os.makedirs(UPLOAD_FOLDER, exist_ok=True)
+    os.makedirs(TEMP_FOLDER, exist_ok=True)
+except OSError:
+    # Fallback if directory creation fails
+    UPLOAD_FOLDER = tempfile.gettempdir()
+    TEMP_FOLDER = tempfile.gettempdir()
 
 # Initialize clients
 llm_client = SimpleLLMClient()
@@ -70,6 +77,15 @@ def upload_file():
             session['chunks'] = chunks
             session['processing_complete'] = True
             session['vector_db_ready'] = True
+            
+            # Store temp image directory path if images were extracted
+            for chunk in chunks:
+                if chunk.get('images'):
+                    for img in chunk['images']:
+                        if 'path' in img:
+                            session['temp_image_dir'] = os.path.dirname(img['path'])
+                            break
+                    break
             
             # Clean up uploaded file
             os.remove(filepath)
