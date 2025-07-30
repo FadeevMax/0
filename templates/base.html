@@ -1,0 +1,241 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>{% block title %}GTI SOP Assistant{% endblock %}</title>
+    
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Font Awesome -->
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    
+    <style>
+        .main-header { 
+            font-size: 2.5rem; 
+            font-weight: bold; 
+            background: linear-gradient(90deg, #1e3c72, #2a5298);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            text-align: center;
+            margin-bottom: 2rem;
+        }
+        .step-header {
+            font-size: 1.5rem;
+            font-weight: bold;
+            color: #1e3c72;
+            margin: 1rem 0;
+        }
+        .status-box {
+            padding: 1rem;
+            border-radius: 8px;
+            margin: 1rem 0;
+        }
+        .success { 
+            background: #d4edda; 
+            border-left: 4px solid #28a745; 
+            color: #155724;
+        }
+        .warning { 
+            background: #fff3cd; 
+            border-left: 4px solid #ffc107; 
+            color: #856404;
+        }
+        .info { 
+            background: #d1ecf1; 
+            border-left: 4px solid #17a2b8; 
+            color: #0c5460;
+        }
+        .error {
+            background: #f8d7da;
+            border-left: 4px solid #dc3545;
+            color: #721c24;
+        }
+        
+        .chat-container {
+            height: 400px;
+            overflow-y: auto;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 1rem;
+            background: #f8f9fa;
+        }
+        
+        .message {
+            margin-bottom: 1rem;
+            padding: 0.75rem;
+            border-radius: 8px;
+        }
+        
+        .message.user {
+            background: #e3f2fd;
+            margin-left: 2rem;
+        }
+        
+        .message.assistant {
+            background: #f3e5f5;
+            margin-right: 2rem;
+        }
+        
+        .loading {
+            display: none;
+        }
+        
+        .sidebar {
+            background: #f8f9fa;
+            min-height: 100vh;
+            padding: 1rem;
+            border-right: 1px solid #dee2e6;
+        }
+        
+        .nav-pills .nav-link {
+            color: #495057;
+            margin-bottom: 0.25rem;
+        }
+        
+        .nav-pills .nav-link.active {
+            background-color: #1e3c72;
+        }
+        
+        .chunk-preview {
+            max-height: 200px;
+            overflow-y: auto;
+            font-size: 0.9rem;
+            background: #f8f9fa;
+            padding: 0.75rem;
+            border-radius: 4px;
+            margin: 0.5rem 0;
+        }
+        
+        .search-result {
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            padding: 1rem;
+            margin-bottom: 1rem;
+            background: white;
+        }
+        
+        .score-badge {
+            font-size: 0.8rem;
+        }
+        
+        .image-gallery {
+            display: flex;
+            gap: 1rem;
+            flex-wrap: wrap;
+            margin: 1rem 0;
+        }
+        
+        .image-card {
+            max-width: 300px;
+            border: 1px solid #dee2e6;
+            border-radius: 8px;
+            overflow: hidden;
+        }
+        
+        .image-card img {
+            width: 100%;
+            height: auto;
+        }
+        
+        .image-card .card-body {
+            padding: 0.75rem;
+        }
+    </style>
+    
+    {% block extra_css %}{% endblock %}
+</head>
+<body>
+    <div class="container-fluid">
+        <div class="row">
+            <!-- Sidebar -->
+            <div class="col-md-3 sidebar">
+                <h5 class="mb-4">⚙️ Configuration</h5>
+                
+                <!-- Status -->
+                <div class="mb-4">
+                    <h6>📊 Status</h6>
+                    <div id="status-display">
+                        <div class="status-box warning">
+                            <small>⏳ No document processed yet</small>
+                        </div>
+                        <div class="status-box info">
+                            <small>ℹ️ Upload document to enable search</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Model Selection -->
+                <div class="mb-3">
+                    <label class="form-label">🤖 AI Model</label>
+                    <select class="form-select" id="model-select">
+                        <option value="GPT-4 Mini">GPT-4 Mini</option>
+                        <option value="GPT-4">GPT-4</option>
+                    </select>
+                </div>
+                
+                <div class="mb-3">
+                    <label class="form-label">🌡️ Temperature</label>
+                    <input type="range" class="form-range" id="temperature-slider" min="0" max="1" step="0.1" value="0.1">
+                    <small class="text-muted">Current: <span id="temperature-value">0.1</span></small>
+                </div>
+            </div>
+            
+            <!-- Main Content -->
+            <div class="col-md-9">
+                {% block content %}{% endblock %}
+            </div>
+        </div>
+    </div>
+    
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+    
+    <script>
+        // Update temperature display
+        document.getElementById('temperature-slider').addEventListener('input', function() {
+            document.getElementById('temperature-value').textContent = this.value;
+        });
+        
+        // Status update function
+        function updateStatus() {
+            fetch('/api/status')
+                .then(response => response.json())
+                .then(data => {
+                    const statusDiv = document.getElementById('status-display');
+                    if (data.processing_complete) {
+                        statusDiv.innerHTML = `
+                            <div class="status-box success">
+                                <small>✅ Document processed (${data.chunks_count} chunks)</small>
+                            </div>
+                            <div class="status-box success">
+                                <small>✅ Search ready</small>
+                            </div>
+                        `;
+                    }
+                });
+        }
+        
+        // Update status on page load
+        document.addEventListener('DOMContentLoaded', updateStatus);
+        
+        // Utility functions for API calls
+        function showAlert(message, type = 'info') {
+            const alertDiv = document.createElement('div');
+            alertDiv.className = `alert alert-${type} alert-dismissible fade show`;
+            alertDiv.innerHTML = `
+                ${message}
+                <button type="button" class="btn-close" data-bs-dismiss="alert"></button>
+            `;
+            document.querySelector('.container-fluid').insertBefore(alertDiv, document.querySelector('.row'));
+            
+            // Auto dismiss after 5 seconds
+            setTimeout(() => {
+                alertDiv.remove();
+            }, 5000);
+        }
+    </script>
+    
+    {% block extra_js %}{% endblock %}
+</body>
+</html>

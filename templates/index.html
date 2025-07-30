@@ -1,0 +1,490 @@
+{% extends "base.html" %}
+
+{% block title %}GTI SOP Assistant - Unified{% endblock %}
+
+{% block content %}
+<!-- Header -->
+<div class="main-header">🚀 GTI SOP Assistant - Unified</div>
+<p class="text-center text-muted mb-4"><em>All-in-one: Document Processing + Search + Chat Interface</em></p>
+
+<!-- Tab Navigation -->
+<ul class="nav nav-pills justify-content-center mb-4" id="main-tabs" role="tablist">
+    <li class="nav-item" role="presentation">
+        <button class="nav-link active" id="process-tab" data-bs-toggle="pill" data-bs-target="#process" type="button" role="tab">
+            📄 Process Document
+        </button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="chat-tab" data-bs-toggle="pill" data-bs-target="#chat" type="button" role="tab">
+            🔍 Search & Chat
+        </button>
+    </li>
+    <li class="nav-item" role="presentation">
+        <button class="nav-link" id="chunks-tab" data-bs-toggle="pill" data-bs-target="#chunks" type="button" role="tab">
+            📋 View Chunks
+        </button>
+    </li>
+</ul>
+
+<!-- Tab Content -->
+<div class="tab-content" id="main-tab-content">
+    <!-- Tab 1: Process Document -->
+    <div class="tab-pane fade show active" id="process" role="tabpanel">
+        <div class="step-header">Step 1: Upload and Process Document</div>
+        
+        <div class="row">
+            <div class="col-md-8">
+                <!-- File Upload -->
+                <div class="card mb-4">
+                    <div class="card-header">
+                        <h5>📁 Upload DOCX File</h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="upload-form" enctype="multipart/form-data">
+                            <div class="mb-3">
+                                <input type="file" class="form-control" id="file-input" accept=".docx" required>
+                                <div class="form-text">Upload the GTI SOP document for processing</div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-6">
+                                    <label class="form-label">Chunk Size (characters)</label>
+                                    <input type="number" class="form-control" id="chunk-size" value="800" min="500" max="2000">
+                                </div>
+                                <div class="col-md-6 d-flex align-items-end">
+                                    <button type="submit" class="btn btn-primary w-100" id="process-btn">
+                                        <i class="fas fa-rocket"></i> Process Document
+                                    </button>
+                                </div>
+                            </div>
+                        </form>
+                        
+                        <div id="upload-progress" class="mt-3" style="display: none;">
+                            <div class="progress">
+                                <div class="progress-bar progress-bar-striped progress-bar-animated" style="width: 100%"></div>
+                            </div>
+                            <small class="text-muted">Processing document...</small>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- GitHub Integration -->
+                <div class="card">
+                    <div class="card-header">
+                        <h5>📂 Load from GitHub</h5>
+                    </div>
+                    <div class="card-body">
+                        <form id="github-form">
+                            <div class="mb-3">
+                                <label class="form-label">Repository URL</label>
+                                <input type="url" class="form-control" id="repo-url" placeholder="https://github.com/owner/repo" required>
+                            </div>
+                            <div class="mb-3">
+                                <label class="form-label">File Path</label>
+                                <input type="text" class="form-control" id="file-path" value="output/hybrid_chunks.json" required>
+                            </div>
+                            <button type="submit" class="btn btn-success">
+                                <i class="fab fa-github"></i> Load from GitHub
+                            </button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Tab 2: Search & Chat -->
+    <div class="tab-pane fade" id="chat" role="tabpanel">
+        <div class="step-header">Step 2: Search and Chat</div>
+        
+        <div id="chat-disabled" class="status-box warning">
+            ⚠️ Please process a document first in the "Process Document" tab.
+        </div>
+        
+        <div id="chat-enabled" style="display: none;">
+            <!-- Chat Interface -->
+            <div class="card mb-4">
+                <div class="card-header">
+                    <h5>💬 Chat with your SOP</h5>
+                </div>
+                <div class="card-body">
+                    <div id="chat-container" class="chat-container mb-3"></div>
+                    <div class="input-group">
+                        <input type="text" class="form-control" id="chat-input" placeholder="Ask about GTI procedures..." disabled>
+                        <button class="btn btn-primary" id="send-btn" disabled>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                    </div>
+                    <div id="chat-loading" class="loading mt-2">
+                        <div class="spinner-border spinner-border-sm" role="status"></div>
+                        <small class="text-muted">Searching and generating response...</small>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Search Results -->
+            <div id="search-results" class="card" style="display: none;">
+                <div class="card-header">
+                    <h5>🔍 Search Details</h5>
+                </div>
+                <div class="card-body" id="search-results-content"></div>
+            </div>
+            
+            <!-- Images -->
+            <div id="related-images" class="card" style="display: none;">
+                <div class="card-header">
+                    <h5>📸 Related Images</h5>
+                </div>
+                <div class="card-body">
+                    <div id="image-gallery" class="image-gallery"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Tab 3: View Chunks -->
+    <div class="tab-pane fade" id="chunks" role="tabpanel">
+        <div class="step-header">Step 3: Review Processed Chunks</div>
+        
+        <div id="chunks-disabled" class="status-box info">
+            ℹ️ Process a document first to view chunks.
+        </div>
+        
+        <div id="chunks-enabled" style="display: none;">
+            <div class="row mb-3">
+                <div class="col-md-6">
+                    <input type="text" class="form-control" id="chunks-search" placeholder="🔍 Search chunks...">
+                </div>
+                <div class="col-md-6">
+                    <div id="chunks-info" class="text-muted"></div>
+                </div>
+            </div>
+            
+            <div id="chunks-container"></div>
+            
+            <!-- Pagination -->
+            <nav id="chunks-pagination" style="display: none;">
+                <ul class="pagination justify-content-center"></ul>
+            </nav>
+        </div>
+    </div>
+</div>
+{% endblock %}
+
+{% block extra_js %}
+<script>
+let currentPage = 1;
+let searchTerm = '';
+
+// File upload handling
+document.getElementById('upload-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const fileInput = document.getElementById('file-input');
+    const chunkSize = document.getElementById('chunk-size').value;
+    const processBtn = document.getElementById('process-btn');
+    const progressDiv = document.getElementById('upload-progress');
+    
+    if (!fileInput.files[0]) {
+        showAlert('Please select a file', 'warning');
+        return;
+    }
+    
+    const formData = new FormData();
+    formData.append('file', fileInput.files[0]);
+    formData.append('chunk_size', chunkSize);
+    
+    processBtn.disabled = true;
+    progressDiv.style.display = 'block';
+    
+    try {
+        const response = await fetch('/api/upload', {
+            method: 'POST',
+            body: formData
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            showAlert(data.message, 'success');
+            updateStatus();
+            enableChatAndChunks();
+        } else {
+            showAlert(data.error, 'danger');
+        }
+    } catch (error) {
+        showAlert('Error uploading file: ' + error.message, 'danger');
+    } finally {
+        processBtn.disabled = false;
+        progressDiv.style.display = 'none';
+    }
+});
+
+// GitHub loading
+document.getElementById('github-form').addEventListener('submit', async function(e) {
+    e.preventDefault();
+    
+    const repoUrl = document.getElementById('repo-url').value;
+    const filePath = document.getElementById('file-path').value;
+    
+    try {
+        const response = await fetch('/api/load-from-github', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                repo_url: repoUrl,
+                file_path: filePath
+            })
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            showAlert(data.message, 'success');
+            updateStatus();
+            enableChatAndChunks();
+        } else {
+            showAlert(data.error, 'danger');
+        }
+    } catch (error) {
+        showAlert('Error loading from GitHub: ' + error.message, 'danger');
+    }
+});
+
+// Chat functionality
+document.getElementById('chat-input').addEventListener('keypress', function(e) {
+    if (e.key === 'Enter') {
+        sendMessage();
+    }
+});
+
+document.getElementById('send-btn').addEventListener('click', sendMessage);
+
+async function sendMessage() {
+    const input = document.getElementById('chat-input');
+    const message = input.value.trim();
+    
+    if (!message) return;
+    
+    const chatContainer = document.getElementById('chat-container');
+    const loading = document.getElementById('chat-loading');
+    const sendBtn = document.getElementById('send-btn');
+    
+    // Add user message
+    addChatMessage(message, 'user');
+    input.value = '';
+    
+    // Show loading
+    loading.style.display = 'block';
+    sendBtn.disabled = true;
+    input.disabled = true;
+    
+    try {
+        const response = await fetch('/api/chat', {
+            method: 'POST',
+            headers: {
+                'Content-Type': 'application/json'
+            },
+            body: JSON.stringify({
+                query: message,
+                model: document.getElementById('model-select').value,
+                temperature: parseFloat(document.getElementById('temperature-slider').value)
+            })
+        });
+        
+        const data = await response.json();
+        
+        if (data.success) {
+            addChatMessage(data.answer, 'assistant');
+            
+            // Show search results
+            if (data.search_results && data.search_results.length > 0) {
+                displaySearchResults(data.search_results);
+            }
+            
+            // Show images
+            if (data.images && data.images.length > 0) {
+                displayImages(data.images);
+            }
+        } else {
+            addChatMessage('Error: ' + data.error, 'assistant');
+        }
+    } catch (error) {
+        addChatMessage('Error: ' + error.message, 'assistant');
+    } finally {
+        loading.style.display = 'none';
+        sendBtn.disabled = false;
+        input.disabled = false;
+    }
+}
+
+function addChatMessage(message, type) {
+    const chatContainer = document.getElementById('chat-container');
+    const messageDiv = document.createElement('div');
+    messageDiv.className = `message ${type}`;
+    messageDiv.innerHTML = `
+        <strong>${type === 'user' ? 'You' : 'Assistant'}:</strong><br>
+        ${message.replace(/\n/g, '<br>')}
+    `;
+    chatContainer.appendChild(messageDiv);
+    chatContainer.scrollTop = chatContainer.scrollHeight;
+}
+
+function displaySearchResults(results) {
+    const searchResults = document.getElementById('search-results');
+    const content = document.getElementById('search-results-content');
+    
+    content.innerHTML = results.map((result, index) => `
+        <div class="search-result">
+            <div class="d-flex justify-content-between align-items-start mb-2">
+                <h6>Match ${index + 1}</h6>
+                <span class="badge bg-primary score-badge">Score: ${result.score.toFixed(2)}</span>
+            </div>
+            ${result.metadata.states || result.metadata.sections || result.metadata.topics ? `
+                <div class="mb-2">
+                    ${result.metadata.states ? `<span class="badge bg-info me-1">States: ${result.metadata.states.join(', ')}</span>` : ''}
+                    ${result.metadata.sections ? `<span class="badge bg-success me-1">Type: ${result.metadata.sections.join(', ')}</span>` : ''}
+                    ${result.metadata.topics ? `<span class="badge bg-warning me-1">Topics: ${result.metadata.topics.join(', ')}</span>` : ''}
+                    ${result.metadata.has_images ? `<span class="badge bg-secondary">📸 ${result.metadata.image_count} images</span>` : ''}
+                </div>
+            ` : ''}
+            <div class="chunk-preview">${result.preview}</div>
+        </div>
+    `).join('');
+    
+    searchResults.style.display = 'block';
+}
+
+function displayImages(images) {
+    const relatedImages = document.getElementById('related-images');
+    const gallery = document.getElementById('image-gallery');
+    
+    gallery.innerHTML = images.map(img => `
+        <div class="image-card">
+            <img src="/images/${img.filename}" alt="${img.label}" onerror="this.style.display='none'">
+            <div class="card-body">
+                <small class="text-muted">${img.label}</small>
+            </div>
+        </div>
+    `).join('');
+    
+    relatedImages.style.display = 'block';
+}
+
+// Chunks functionality
+document.getElementById('chunks-search').addEventListener('input', function() {
+    searchTerm = this.value;
+    currentPage = 1;
+    loadChunks();
+});
+
+async function loadChunks() {
+    try {
+        const response = await fetch(`/api/chunks?search=${encodeURIComponent(searchTerm)}&page=${currentPage}&per_page=5`);
+        const data = await response.json();
+        
+        if (data.chunks) {
+            displayChunks(data.chunks);
+            displayPagination(data.page, data.pages, data.total);
+            
+            const info = document.getElementById('chunks-info');
+            info.textContent = searchTerm ? 
+                `Filtered: ${data.total} chunks match '${searchTerm}'` : 
+                `Total Chunks: ${data.total}`;
+        }
+    } catch (error) {
+        console.error('Error loading chunks:', error);
+    }
+}
+
+function displayChunks(chunks) {
+    const container = document.getElementById('chunks-container');
+    
+    container.innerHTML = chunks.map(chunk => `
+        <div class="card mb-3">
+            <div class="card-header">
+                <h6>Chunk ${chunk.chunk_id} - ${chunk.text.length} characters</h6>
+            </div>
+            <div class="card-body">
+                <p><strong>Text:</strong></p>
+                <div class="chunk-preview">${chunk.text}</div>
+                
+                <p class="mt-3"><strong>Metadata:</strong></p>
+                <pre class="bg-light p-2 rounded">${JSON.stringify(chunk.metadata, null, 2)}</pre>
+            </div>
+        </div>
+    `).join('');
+}
+
+function displayPagination(page, pages, total) {
+    const pagination = document.getElementById('chunks-pagination');
+    const ul = pagination.querySelector('ul');
+    
+    if (pages <= 1) {
+        pagination.style.display = 'none';
+        return;
+    }
+    
+    pagination.style.display = 'block';
+    
+    let paginationHTML = '';
+    
+    // Previous button
+    if (page > 1) {
+        paginationHTML += `<li class="page-item"><a class="page-link" href="#" onclick="changePage(${page - 1})">Previous</a></li>`;
+    }
+    
+    // Page numbers
+    for (let i = Math.max(1, page - 2); i <= Math.min(pages, page + 2); i++) {
+        paginationHTML += `<li class="page-item ${i === page ? 'active' : ''}">
+            <a class="page-link" href="#" onclick="changePage(${i})">${i}</a>
+        </li>`;
+    }
+    
+    // Next button
+    if (page < pages) {
+        paginationHTML += `<li class="page-item"><a class="page-link" href="#" onclick="changePage(${page + 1})">Next</a></li>`;
+    }
+    
+    ul.innerHTML = paginationHTML;
+}
+
+function changePage(page) {
+    currentPage = page;
+    loadChunks();
+}
+
+function enableChatAndChunks() {
+    // Enable chat
+    document.getElementById('chat-disabled').style.display = 'none';
+    document.getElementById('chat-enabled').style.display = 'block';
+    document.getElementById('chat-input').disabled = false;
+    document.getElementById('send-btn').disabled = false;
+    
+    // Enable chunks
+    document.getElementById('chunks-disabled').style.display = 'none';
+    document.getElementById('chunks-enabled').style.display = 'block';
+    loadChunks();
+}
+
+// Clear chat functionality
+function clearChat() {
+    document.getElementById('chat-container').innerHTML = '';
+    document.getElementById('search-results').style.display = 'none';
+    document.getElementById('related-images').style.display = 'none';
+}
+
+// Add clear chat button
+document.addEventListener('DOMContentLoaded', function() {
+    const chatCard = document.querySelector('#chat-enabled .card-header');
+    if (chatCard) {
+        chatCard.innerHTML += `
+            <button class="btn btn-sm btn-outline-danger float-end" onclick="clearChat()">
+                🗑️ Clear Chat
+            </button>
+        `;
+    }
+});
+</script>
+{% endblock %}
